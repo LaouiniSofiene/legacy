@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}"/>
-    <title>Legacy.</title> 
+    <title>Legacy Ventures Malta | Premier Construction & Real Estate Property Developers in Malta</title>
+    <meta name="description" content="Legacy Ventures Malta is a premier construction and real estate property developer in Malta, specializing in luxury residential and commercial properties, backed by years of experience and expertise in the construction industry.">
+
 
         <!-- Favicons -->
         <link rel="shortcut icon" href="favicon.png">

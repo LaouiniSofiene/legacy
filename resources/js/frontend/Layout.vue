@@ -73,7 +73,7 @@
 
                 <!-- Main image-->
 
-                <img src="/img/header-1.jpg"  alt="" data-bgposition="center center" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="7">
+                <img src="/img/header-1.jpg"  alt="Luxury apartment building in Malta developed by Legacy Ventures Malta" data-bgposition="center center" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="7">
 
                 <!-- Layer 1 -->
 
@@ -137,7 +137,7 @@
 
                     <!-- Main image-->
 
-                    <img src="/img/header-2.jpg"  alt="" data-bgposition="center center" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="7">
+                    <img src="/img/header-2.jpg"  alt="Luxury apartment building in Malta developed by Legacy Ventures Malta" data-bgposition="center center" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="7">
 
                     <!-- Layer 1 -->
 
@@ -204,7 +204,7 @@
 
                     <!-- Main image-->
 
-                    <img src="/img/header-3.jpg"  alt="" data-bgposition="center center" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="7">
+                    <img src="/img/header-3.jpg"  alt="Luxury apartment building in Malta developed by Legacy Ventures Malta" data-bgposition="center center" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="7">
 
                     <!-- Layer 1 -->
 
@@ -281,14 +281,14 @@
             <div class="container services-section">
                 <div class="row-base row">
                     <div class="col-base col-feature col-sm-6 col-md-4 wow fadeInUp">
-                        <div class="media-left"><img src="/img/icons/painting.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="legacy-gypsum"></div>
+                        <div class="media-left"><img src="/img/icons/painting.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="Painting and plastering service by Legacy Ventures Malta"></div>
                         <div class="media-right">
                             <h4 class="text-white service-title">PLASTERING & PAINTING</h4>
                             <p>Smooth finish for interior and exterior walls and ceilings of residential and commercial properties.</p>
                         </div>
                     </div>
                     <div class="col-base col-feature col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s" >
-                        <div class="media-left"><img src="/img/icons/tiling.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="legacy-gypsum"></div>
+                        <div class="media-left"><img src="/img/icons/tiling.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="Tiling service by Legacy Ventures Malta"></div>
                         <div class="media-right">
                             <h4 class="text-white service-title">TILING</h4>
                             <p>Professional laying of tiles of any size and material for floor and walls, bathrooms and feature walls.</p>
@@ -296,7 +296,7 @@
                     </div>
                     <div class="clearfix visible-sm"></div>
                     <div class="col-base col-feature col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="media-left"><img src="/img/icons/gypsum.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="legacy-gypsum"></div>
+                        <div class="media-left"><img src="/img/icons/gypsum.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="Gypsum service by Legacy Ventures Malta"></div>
                         <div class="media-right">
                             <h4 class="text-white service-title">GYPSUM WORKS</h4>
                             <p>Installation of any design for homes and businesses, such as dry lining, gypsum soffits, coving and more.</p>
@@ -314,7 +314,7 @@
             <div class="isotope-item livingroom">
                 <a href="/img/portfolio-1.jpg" title="Portfolio Image 1">
                 <figure class="showcase-item">
-                    <div class="showcase-item-thumbnail"><img alt="" src="/img/portfolio-1.jpg"></div>
+                    <div class="showcase-item-thumbnail"><img alt="Legacy Ventures Malta Portfolio 1" src="/img/portfolio-1.jpg"></div>
                     <figcaption class="showcase-item-hover hover-dark">
                     <div class="showcase-item-info">
                         <div class="showcase-item-title">Portfolio Image 1</div>
@@ -327,7 +327,7 @@
             <div class="isotope-item kitchen">
                 <a href="/img/portfolio-2.jpg" title="Portfolio Image 2">
                 <figure class="showcase-item">
-                    <div class="showcase-item-thumbnail"><img alt="" src="/img/portfolio-2.jpg" style="filter: grayscale(90%);"></div>
+                    <div class="showcase-item-thumbnail"><img alt="Legacy Ventures Malta Portfolio 2" src="/img/portfolio-2.jpg" style="filter: grayscale(90%);"></div>
                     <figcaption class="showcase-item-hover hover-dark">
                     <div class="showcase-item-info">
                         <div class="showcase-item-title">Portfolio Image 2</div>
@@ -340,7 +340,7 @@
             <div class="isotope-item terrace">
                 <a href="/img/portfolio-3.jpg" title="Portfolio Image 3">
                 <figure class="showcase-item">
-                    <div class="showcase-item-thumbnail"><img alt="" src="/img/portfolio-3.jpg" style="filter: grayscale(90%);"></div>
+                    <div class="showcase-item-thumbnail"><img alt="Legacy Ventures Malta Portfolio 3" src="/img/portfolio-3.jpg" style="filter: grayscale(90%);"></div>
                     <figcaption class="showcase-item-hover hover-dark">
                     <div class="showcase-item-info">
                         <div class="showcase-item-title">Portfolio Image 3</div>
@@ -353,7 +353,7 @@
             <div class="isotope-item kitchen">
                 <a href="/img/portfolio-4.jpg" title="Portfolio Image 4">
                 <figure class="showcase-item">
-                    <div class="showcase-item-thumbnail"><img alt="" src="/img/portfolio-4.jpg" style="filter: grayscale(90%);"></div>
+                    <div class="showcase-item-thumbnail"><img alt="Legacy Ventures Malta Portfolio 4" src="/img/portfolio-4.jpg" style="filter: grayscale(90%);"></div>
                     <figcaption class="showcase-item-hover hover-dark">
                     <div class="showcase-item-info">
                         <div class="showcase-item-title">Portfolio Image 4</div>
@@ -366,7 +366,7 @@
             <div class="isotope-item terrace">
                 <a href="/img/portfolio-5.jpg" title="Portfolio Image 5">
                 <figure class="showcase-item">
-                    <div class="showcase-item-thumbnail"><img alt="" src="/img/portfolio-5.jpg" style="filter: grayscale(90%);"></div>
+                    <div class="showcase-item-thumbnail"><img alt="Legacy Ventures Malta Portfolio 5" src="/img/portfolio-5.jpg" style="filter: grayscale(90%);"></div>
                     <figcaption class="showcase-item-hover hover-dark">
                     <div class="showcase-item-info">
                         <div class="showcase-item-title">Portfolio Image 5</div>
@@ -393,7 +393,7 @@
                 <div class="clearfix">
                     <div class="col-team col-sm-6 col-lg-3">
                     <figure class="team-profile">
-                        <img alt="" src="/img/8.jpg">
+                        <img alt="Legacy Ventures Malta" src="/img/8.jpg">
                         <figcaption class="team-caption white">
                         <div class="team-meta">
                             <strong class="team-name">Martin Azzopardi</strong>
@@ -407,7 +407,7 @@
                     </div>
                     <div class="col-team col-sm-6 col-lg-3">
                     <figure class="team-profile">
-                        <img alt="" src="/img/6.jpg">
+                        <img alt="Legacy Ventures Malta" src="/img/6.jpg">
                         <figcaption class="team-caption white">
                         <div class="team-meta">
                             <strong class="team-name">Etienne Pavia</strong>
@@ -421,7 +421,7 @@
                     </div>
                     <div class="col-team col-sm-6 col-lg-3">
                     <figure class="team-profile">
-                        <img alt="" src="/img/11.jpg">
+                        <img alt="Legacy Ventures Malta" src="/img/11.jpg">
                         <figcaption class="team-caption white">
                         <div class="team-meta">
                             <strong class="team-name">Gianluca Vella Valletta</strong>
@@ -435,7 +435,7 @@
                     </div>
                     <div class="col-team col-sm-6 col-lg-3">
                     <figure class="team-profile">
-                        <img alt="" src="/img/1.jpg">
+                        <img alt="Legacy Ventures Malta" src="/img/1.jpg">
                         <figcaption class="team-caption white">
                         <div class="team-meta">
                             <strong class="team-name">Lorraine Pavia</strong>
