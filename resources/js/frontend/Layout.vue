@@ -421,7 +421,7 @@
                     </div>
                     <div class="col-team col-sm-6 col-lg-3">
                     <figure class="team-profile">
-                        <img alt="" src="/img/1.jpg">
+                        <img alt="" src="/img/11.jpg">
                         <figcaption class="team-caption white">
                         <div class="team-meta">
                             <strong class="team-name">Gianluca Vella Valletta</strong>
@@ -435,7 +435,7 @@
                     </div>
                     <div class="col-team col-sm-6 col-lg-3">
                     <figure class="team-profile">
-                        <img alt="" src="/img/11.jpg">
+                        <img alt="" src="/img/1.jpg">
                         <figcaption class="team-caption white">
                         <div class="team-meta">
                             <strong class="team-name">Lorraine Pavia</strong>
