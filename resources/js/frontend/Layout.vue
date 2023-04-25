@@ -13,7 +13,7 @@
 
         <header class="navbar navbar-responsive">
         <div class="container">
-            <a href="#" class="brand js-target-scroll">
+            <a href="#" class="brand js-target-scroll helvica-font header-logo">
             Legacy Ventures
             </a>
 
@@ -97,7 +97,7 @@
                     data-textAlign="['center']"
                     data-voffset="['-100']"
                     data-fontsize="['90','60','50','40']"
-                    data-lineheight="['140','85','75']"
+                    data-lineheight="['100','70','60']"
                     data-height="none"
                     data-whitespace="nowrap"
                     data-transform_idle="o:1;"
@@ -161,7 +161,7 @@
                         data-textAlign="['center']"
                         data-voffset="['-100']"
                         data-fontsize="['90','60','50','40']"                
-                        data-lineheight="['140','85','75']"
+                        data-lineheight="['100','70','60']"
                         data-height="none"
                         data-whitespace="nowrap"
                         data-transform_idle="o:1;"
@@ -228,7 +228,7 @@
                         data-textAlign="['center']"
                         data-voffset="['-100']"
                         data-fontsize="['90','60','50','40']"
-                        data-lineheight="['140','85','75']"
+                        data-lineheight="['100','70','60']"
                         data-height="none"
                         data-whitespace="nowrap"
                         data-transform_idle="o:1;"
@@ -384,7 +384,7 @@
                 <div class="container">
                 <div class="row">
                     <header class="text-center col-md-12">
-                    <h2 class="section-title">Meet the team</h2>
+                    <h2 class="section-title helvica-font">Meet the team</h2>
                     <p class="section-lead">Our people are the key to our success. Legacy Ventures has built a culture of focused and passionate people who, together, collaborate to deliver quality outcomes for our partners and clients.</p>
                     </header>
                 </div>
@@ -400,7 +400,11 @@
                             <span class="team-spec">Managing Director</span>
                         </div>
                         <ul class="team-social social-list">
-                            <li><a href="mailto:martin@legacyventuresmalta.com" class="fa fa-envelope"></a>&nbsp;<a href="mailto:martin@legacyventuresmalta.com">martin@legacyventuresmalta.com</a></li>
+                            <li>
+                                <a id="envelope-icon" href="mailto:martin@legacyventuresmalta.com" class="fa fa-envelope"></a>
+                                &nbsp;
+                                <a id="team-member-email" href="mailto:martin@legacyventuresmalta.com">martin@legacyventuresmalta.com</a>
+                            </li>
                         </ul>
                         </figcaption>
                     </figure>
@@ -414,7 +418,11 @@
                             <span class="team-spec">Project Manager</span>
                         </div>
                         <ul class="team-social social-list">
-                            <li><a href="mailto:etienne@legacyventuresmalta.com" class="fa fa-envelope"></a>&nbsp;<a href="mailto:etienne@legacyventuresmalta.com">etienne@legacyventuresmalta.com</a></li>
+                            <li>
+                                <a id="envelope-icon" href="mailto:etienne@legacyventuresmalta.com" class="fa fa-envelope"></a>
+                                &nbsp;
+                                <a id="team-member-email" href="mailto:etienne@legacyventuresmalta.com">etienne@legacyventuresmalta.com</a>
+                            </li>
                         </ul>
                         </figcaption>
                     </figure>
@@ -428,7 +436,11 @@
                             <span class="team-spec">Project Manager</span>
                         </div>
                         <ul class="team-social social-list">
-                            <li><a href="mailto:gianluca@legacyventuresmalta.com" class="fa fa-envelope"></a>&nbsp;<a href="mailto:gianluca@legacyventuresmalta.com">gianluca@legacyventuresmalta.com</a></li>
+                            <li>
+                                <a id="envelope-icon" href="mailto:gianluca@legacyventuresmalta.com" class="fa fa-envelope"></a>
+                                &nbsp;
+                                <a id="team-member-email" href="mailto:gianluca@legacyventuresmalta.com">gianluca@legacyventuresmalta.com</a>
+                            </li>
                         </ul>
                         </figcaption>
                     </figure>
@@ -442,7 +454,11 @@
                             <span class="team-spec">Office Administrator</span>
                         </div>
                         <ul class="team-social social-list">
-                            <li><a href="mailto:lorraine@legacyventuresmalta.com" class="fa fa-envelope"></a>&nbsp;<a href="mailto:lorraine@legacyventuresmalta.com">lorraine@legacyventuresmalta.com</a></li>
+                            <li>
+                                <a id="envelope-icon" href="mailto:lorraine@legacyventuresmalta.com" class="fa fa-envelope"></a>
+                                &nbsp;
+                                <a id="team-member-email" href="mailto:lorraine@legacyventuresmalta.com">lorraine@legacyventuresmalta.com</a>
+                            </li>
                         </ul>
                         </figcaption>
                     </figure>
@@ -450,129 +466,7 @@
                 </div>
                 </div>
             </section>
-        <!-- <section id="team" class="team section pb-0">
-            <div class="container">
-                <div class="row">
-                    <header class="text-center col-md-12">
-                        <h2 class="section-title">Our magic team.</h2>
-                        <p class="section-lead">Our multicultural team is the driving force behind our success in delivering top-quality products and services. We prioritise maintaining a positive and healthy company culture through our values, mission, and community involvement.</p>
-                    </header>
-                </div>
-            </div>
-            <br>
-            <div class="section-content">
-                <div class="container-fluid" style="padding: 0 !important;">
-                    <div class="col-md-12">
-                        <div class="team-wrapper">
-                            <div class="team-carousel js-team-carousel">
-                                <div class="col-team">
-                                    <figure class="team-profile">
-                                        <img alt="" src="/img/8.jpg">
-                                        <figcaption class="team-caption white">
-                                            <div class="team-meta">
-                                                <strong class="team-name">Martin</strong>
-                                                <span class="team-spec">CEO / Founder</span>
-                                            </div>
-                                            <ul class="team-social social-list">
-                                                <li><a href="" class="fa fa-facebook"></a></li>
-                                                <li><a href="" class="fa fa-twitter"></a></li>
-                                                <li><a href="" class="fa fa-linkedin"></a></li>
-                                                <li><a href="" class="fa fa-instagram"></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                                <div class="col-team">
-                                    <figure class="team-profile">
-                                        <img alt="" src="/img/6.jpg">
-                                        <figcaption class="team-caption white">
-                                            <div class="team-meta">
-                                                <strong class="team-name">Etienne</strong>
-                                                <span class="team-spec">CEO / Founder</span>
-                                            </div>
-                                            <ul class="team-social social-list">
-                                                <li><a href="" class="fa fa-facebook"></a></li>
-                                                <li><a href="" class="fa fa-twitter"></a></li>
-                                                <li><a href="" class="fa fa-linkedin"></a></li>
-                                                <li><a href="" class="fa fa-instagram"></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                                <div class="col-team">
-                                    <figure class="team-profile">
-                                        <img alt="" src="/img/1.jpg">
-                                        <figcaption class="team-caption white">
-                                            <div class="team-meta">
-                                                <strong class="team-name">Gianluca</strong>
-                                                <span class="team-spec">CEO / Founder</span>
-                                            </div>
-                                            <ul class="team-social social-list">
-                                                <li><a href="" class="fa fa-facebook"></a></li>
-                                                <li><a href="" class="fa fa-twitter"></a></li>
-                                                <li><a href="" class="fa fa-linkedin"></a></li>
-                                                <li><a href="" class="fa fa-instagram"></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                                <div class="col-team">
-                                    <figure class="team-profile">
-                                        <img alt="" src="/img/11.jpg">
-                                        <figcaption class="team-caption white">
-                                            <div class="team-meta">
-                                                <strong class="team-name">Renaldo</strong>
-                                                <span class="team-spec">CEO / Founder</span>
-                                            </div>
-                                            <ul class="team-social social-list">
-                                                <li><a href="" class="fa fa-facebook"></a></li>
-                                                <li><a href="" class="fa fa-twitter"></a></li>
-                                                <li><a href="" class="fa fa-linkedin"></a></li>
-                                                <li><a href="" class="fa fa-instagram"></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                                <div class="col-team">
-                                    <figure class="team-profile">
-                                        <img alt="" src="/img/8.jpg">
-                                        <figcaption class="team-caption white">
-                                            <div class="team-meta">
-                                                <strong class="team-name">Martin</strong>
-                                                <span class="team-spec">CEO / Founder</span>
-                                            </div>
-                                            <ul class="team-social social-list">
-                                                <li><a href="" class="fa fa-facebook"></a></li>
-                                                <li><a href="" class="fa fa-twitter"></a></li>
-                                                <li><a href="" class="fa fa-linkedin"></a></li>
-                                                <li><a href="" class="fa fa-instagram"></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                                <div class="col-team">
-                                    <figure class="team-profile">
-                                        <img alt="" src="/img/8.jpg">
-                                        <figcaption class="team-caption white">
-                                            <div class="team-meta">
-                                                <strong class="team-name">Martin</strong>
-                                                <span class="team-spec">CEO / Founder</span>
-                                            </div>
-                                            <ul class="team-social social-list">
-                                                <li><a href="" class="fa fa-facebook"></a></li>
-                                                <li><a href="" class="fa fa-twitter"></a></li>
-                                                <li><a href="" class="fa fa-linkedin"></a></li>
-                                                <li><a href="" class="fa fa-instagram"></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
+        
 
         <!-- Clients -->
 
@@ -580,7 +474,7 @@
             <div class="container">
                 <div class="row">
                 <header class="text-center col-md-12">
-                <h2 class="section-title">Testimonials</h2>
+                <h2 class="section-title helvica-font">Testimonials</h2>
                 <p class="section-lead">Our team of experts has competences of different branches and specializations.</p>
                 </header>
                 </div>
@@ -628,7 +522,7 @@
             <div class="container">
             <div class="row">
                 <header class="text-center col-md-10 col-md-offset-1">
-                    <h2 class="section-title">Careers</h2>
+                    <h2 class="section-title helvica-font">Careers</h2>
                     <p class="section-lead">Legacy Ventures wouldn't be the business we are today without our people. We're proud to support our members with an engaging workplace where leadership and initiative are rewarded.</p>
                 </header>
             </div>
@@ -659,7 +553,7 @@
 
         <section class="promo section bg-black" style="padding-top: 9.1em !important;">
             <div class="container">
-                <h2 class="section-title">Get in touch with us</h2>
+                <h2 class="section-title helvica-font">Get in touch with us</h2>
                     <p class="section-lead">Looking for a reliable and affordable contractor for your next project?</p><br>
             <a href="#request" data-toggle="modal" class="btn btn-dark wow swing">Let's talk</a>
             </div>
@@ -672,15 +566,15 @@
             <div class="container">
             <div class="row-base row">
                 <div class="brand-info col-base col-sm-6 col-md-4">
-                <a href="#top" class="brand js-target-scroll">
+                <a href="#top" class="brand js-target-scroll helvica-font footer-logo">
                     Legacy Ventures
                 </a>
-                <p>We create web products for the help and growth of your business.</p>
+                <p>we are dedicated to providing high-quality finished for construction projects, from commercial buildings to residential homes.</p>
                 </div>
 
                 <div class="col-contacts col-base col-sm-6 col-md-4 col-md-offset-1">
-                <a href="tel:88005553535" class="phone">+8 800 555 35 35</a><br>
-                <a href="mailto:info@Legacy.com" class="email">info@Legacy.com</a>
+                <!-- <a href="tel:88005553535" class="phone">+8 800 555 35 35</a><br> -->
+                <a href="mailto:info@legacyventuresmalta.eu" class="email">Info@legacyventuresmalta.eu</a>
                 </div>
                 <div class="col-subscribe col-base col-sm-6 col-md-3">
                 <div class="subscribe-title">Subscribe to our newsletter</div>
@@ -702,10 +596,8 @@
                 © Copyright 2023 Legacy. All Rights Reserved
                 </div>
                 <ul class="social-list">
-                    <li><a href="" class="fa fa-facebook"></a></li>
-                    <li><a href="" class="fa fa-twitter"></a></li>
-                    <li><a href="" class="fa fa-linkedin"></a></li>
-                    <li><a href="" class="fa fa-instagram"></a></li>
+                    <li><a href="https://www.facebook.com/legacyventuresmalta" class="fa fa-facebook"></a></li>
+                    <li><a href="https://instagram.com/legacyventuresmalta?igshid=YmMyMTA2M2Y=" class="fa fa-instagram"></a></li>
                 </ul>  
             </div>
             </div>
@@ -1117,6 +1009,30 @@ export default {
           height: 45px;  
     }
 }
+
+.helvica-font{
+    font-family: Helvetica, sans-serif;
+}
+
+.header-logo{
+    font-size: 1.575em;
+}
+
+.footer-logo{
+    font-size: 1.875em;
+}
+
+#team-member-email{
+    display: none;
+}
+#envelope-icon:hover + #team-member-email{
+    display: contents;
+}
+
+#team-member-email:hover{
+    display: contents;
+}
+
 
 
 </style>
