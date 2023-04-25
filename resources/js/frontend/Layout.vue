@@ -14,7 +14,7 @@
         <header class="navbar navbar-responsive">
         <div class="container">
             <a href="#" class="brand js-target-scroll helvica-font header-logo">
-            Legacy Ventures
+                <img width="200" style="width: 200px;margin-top: -15px;" src="/img/legacy-ventures-logo.png"  alt="Legacy Ventures Malta">
             </a>
 
             <!-- Navigation Desctop -->
@@ -565,16 +565,21 @@
         <footer id="footer" class="footer">     
             <div class="container">
             <div class="row-base row">
-                <div class="brand-info col-base col-sm-6 col-md-4">
+                <div class="brand-info col-base col-sm-6 col-md-4" style="margin-top: 20px;">
                 <a href="#top" class="brand js-target-scroll helvica-font footer-logo">
-                    Legacy Ventures
+                    <img width="330" style="width: 330px;" src="/img/legacy-ventures-logo.png"  alt="Legacy Ventures Malta">
                 </a>
                 <p>we are dedicated to providing high-quality finished for construction projects, from commercial buildings to residential homes.</p>
                 </div>
 
                 <div class="col-contacts col-base col-sm-6 col-md-4 col-md-offset-1">
                 <!-- <a href="tel:88005553535" class="phone">+8 800 555 35 35</a><br> -->
-                <a href="mailto:info@legacyventuresmalta.eu" class="email">Info@legacyventuresmalta.eu</a>
+                    <a href="mailto:info@legacyventuresmalta.eu" class="email">Info@legacyventuresmalta.eu</a>
+                    <br>
+                    <ul class="social-list" style="margin-top: 15px;">
+                            <li><a style="font-size: 1.5em;" href="https://www.facebook.com/legacyventuresmalta" class="fa fa-facebook"></a></li>
+                            <li><a style="font-size: 1.5em;" href="https://instagram.com/legacyventuresmalta?igshid=YmMyMTA2M2Y=" class="fa fa-instagram"></a></li>
+                    </ul>  
                 </div>
                 <div class="col-subscribe col-base col-sm-6 col-md-3">
                 <div class="subscribe-title">Subscribe to our newsletter</div>
@@ -595,10 +600,7 @@
                 <div class="copyrights">
                 © Copyright 2023 Legacy. All Rights Reserved
                 </div>
-                <ul class="social-list">
-                    <li><a href="https://www.facebook.com/legacyventuresmalta" class="fa fa-facebook"></a></li>
-                    <li><a href="https://instagram.com/legacyventuresmalta?igshid=YmMyMTA2M2Y=" class="fa fa-instagram"></a></li>
-                </ul>  
+                
             </div>
             </div>
         </footer>
@@ -1033,6 +1035,8 @@ export default {
     display: contents;
 }
 
-
+.navbar-responsive.affix {
+    padding-top: 1.7em;
+}
 
 </style>
