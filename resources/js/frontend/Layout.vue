@@ -581,7 +581,7 @@
                             <li><a style="font-size: 1.5em;" href="https://instagram.com/legacyventuresmalta?igshid=YmMyMTA2M2Y=" class="fa fa-instagram"></a></li>
                     </ul>  
                 </div>
-                <div class="col-subscribe col-base col-sm-6 col-md-3">
+                <div class="col-subscribe col-base col-sm-6 col-md-3 mobile-top-spacing">
                 <div class="subscribe-title">Subscribe to our newsletter</div>
                 <form class="subscribe-form js-subscribe-form" @submit.prevent="subscribe">
                     <div class="input-group">
@@ -1037,6 +1037,12 @@ export default {
 
 .navbar-responsive.affix {
     padding-top: 1.7em;
+}
+
+@media (max-width: 500px) {
+    .mobile-top-spacing{
+        margin-top: 5em !important;
+    }
 }
 
 </style>
