@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}"/>
     <title>Legacy Ventures Malta | Premier General Contractor & Project Management Firm in Malta</title>
-    <meta name="description" content="Legacy Ventures Malta is a premier construction and real estate property developer in Malta, specializing in luxury residential and commercial properties, backed by years of experience and expertise in the construction industry.">
+    <meta name="description" content="Legacy Ventures Malta is a premier general contractor and project management firm in Malta, specializing in luxury residential and commercial properties, backed by years of experience and expertise in the construction industry.">
 
 
         <!-- Favicons -->
