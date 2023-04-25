@@ -290,7 +290,7 @@
                     <div class="col-base col-feature col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s" >
                         <div class="media-left"><img src="/img/icons/tiling.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="Tiling service by Legacy Ventures Malta"></div>
                         <div class="media-right">
-                            <h4 class="text-white service-title">TILING</h4>
+                            <h4 class="text-white service-title">TILING WORKS</h4>
                             <p>Professional laying of tiles of any size and material for floor and walls, bathrooms and feature walls.</p>
                         </div>
                     </div>
