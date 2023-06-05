@@ -56,26 +56,37 @@
         
         <!-- Home -->
             
-        <main class="main" id="home">
+        <main class="main" id="home" style=" width: 100vw;height: 100vh;">
         
-        <div class="arrow-left hidden-xs"></div>
-        <div class="arrow-right hidden-xs"></div>
+        <!-- <div class="arrow-left hidden-xs"></div>
+        <div class="arrow-right hidden-xs"></div> -->
 
         <!-- Start revolution slider -->
-
-        <div class="rev_slider_wrapper">
+        <div class="overlay">
+                <!-- <i class="fa fa-times close-icon" @click="closeVideo"></i> -->
+                <!-- <div class="popup"> -->
+                    <iframe 
+                        src="https://player.vimeo.com/video/833409461?h=32f88f374?rel=0&autoplay=1&loop=1&background=1" 
+                        frameborder="0" 
+                        allow="autoplay; fullscreen" 
+                        allowfullscreen
+                        webkitallowfullscreen
+                        mozallowfullscreen
+                        muted
+                        style="padding: 0px; background: transparent;">
+                    </iframe>
+                    <div class="bg-pattern" style="background-image: url('/img/pattern.png');"></div>
+                <!-- </div> -->
+        </div>
+        <!-- <div class="rev_slider_wrapper">
+            
             <div id="rev_slider" class="rev_slider fullscreenbanner">
             <ul>
 
-                <!-- Slide 1 -->
 
                 <li  data-transition="incube-horizontal" data-masterspeed="1000" data-fsmasterspeed="1000">
 
-                <!-- Main image-->
-
                 <img src="/img/header-1.jpg"  alt="Luxury apartment building in Malta developed by Legacy Ventures Malta" data-bgposition="center center" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="7">
-
-                <!-- Layer 1 -->
 
                 <div class="tp-caption tp-shape tp-shape-mask tp-shapewrapper" 
                     data-x="center" data-hoffset="" 
@@ -89,58 +100,12 @@
                     data-start="0" 
                     data-responsive_offset="on" style="background-color:rgba(10,10,10,0.5);"></div>
 
-                <!-- Layer 2 -->
-
-                <div class="slider-title tp-caption tp-resizeme" 
-                    data-x="['center']" data-hoffset="['0']"  
-                    data-y="['middle','middle','middle','middle']" 
-                    data-textAlign="['center']"
-                    data-voffset="['-100']"
-                    data-fontsize="['90','60','50','40']"
-                    data-lineheight="['100','70','60']"
-                    data-height="none"
-                    data-whitespace="nowrap"
-                    data-transform_idle="o:1;"
-                    data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;" 
-                    data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                    data-mask_in="x:50px;y:0px;s:inherit;e:inherit;" 
-                    data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-                    data-start="500" 
-                    data-splitin="chars" 
-                    data-splitout="none" 
-                    data-responsive_offset="on" 
-                    data-elementdelay="0.05" style="font-family: 'Playfair Display', serif; font-weight: 900;font-size: 80px !important; line-height: 120px !important;">General<br>Contracting
-
-                </div>
-
-            
-                <!-- Layer 5 -->
-
-                <div class="tp-caption tp-resizeme" 
-                data-x="right" 
-                data-y="bottom" 
-                data-hoffset="['40']" 
-                data-voffset="['40']"
-                data-fontsize="['13']"
-                data-basealign="slide"
-                data-transform_idle="o:1;"
-                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1000;e:Power3.easeInOut;" 
-                data-transform_out="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1000;e:Power3.easeInOut;" 
-                data-start="2000" 
-                data-responsive_offset="on" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.480em; text-transform: uppercase;">
-                2023
-                </div>
-
                 </li>
 
                 <li  data-transition="incube-horizontal" data-masterspeed="1000" data-fsmasterspeed="1000">
-
-                    <!-- Main image-->
 
                     <img src="/img/header-2.jpg"  alt="Luxury apartment building in Malta developed by Legacy Ventures Malta" data-bgposition="center center" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="7">
 
-                    <!-- Layer 1 -->
-
                     <div class="tp-caption tp-shape tp-shape-mask tp-shapewrapper" 
                         data-x="center" data-hoffset="" 
                         data-y="left" data-voffset="" 
@@ -152,62 +117,12 @@
                         data-transform_out="opacity:0;s:1000;s:1000s:1000;e:Power3.easeInOut;"  
                         data-start="0" 
                         data-responsive_offset="on" style="background-color:rgba(10,10,10,0.5);"></div>
-
-                    <!-- Layer 2 -->
-
-                    <div class="slider-title tp-caption tp-resizeme" 
-                        data-x="['center']" data-hoffset="['0']"  
-                        data-y="['middle','middle','middle','middle']" 
-                        data-textAlign="['center']"
-                        data-voffset="['-100']"
-                        data-fontsize="['90','60','50','40']"                
-                        data-lineheight="['100','70','60']"
-                        data-height="none"
-                        data-whitespace="nowrap"
-                        data-transform_idle="o:1;"
-                        data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;" 
-                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                        data-mask_in="x:50px;y:0px;s:inherit;e:inherit;" 
-                        data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-                        data-start="500" 
-                        data-splitin="chars" 
-                        data-splitout="none" 
-                        data-responsive_offset="on" 
-                        data-elementdelay="0.05" style="font-family: 'Playfair Display', serif; font-weight: 900;font-size: 80px !important; line-height: 120px !important;">Project<br>Management
-
-                    </div>
-
-                    <!-- Layer 2 -->
-
-                    
-
-                    <!-- Layer 5 -->
-
-                    <div class="tp-caption tp-resizeme" 
-                    data-x="right" 
-                    data-y="bottom" 
-                    data-hoffset="['40']" 
-                    data-voffset="['40']"
-                    data-fontsize="['13']"
-                    data-basealign="slide"
-                    data-transform_idle="o:1;"
-                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1000;e:Power3.easeInOut;" 
-                    data-transform_out="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1000;e:Power3.easeInOut;" 
-                    data-start="2000" 
-                    data-responsive_offset="on" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.480em; text-transform: uppercase;">
-                    2023
-                    </div>
-
                 </li>
 
                 <li  data-transition="incube-horizontal" data-masterspeed="1000" data-fsmasterspeed="1000">
 
-                    <!-- Main image-->
-
                     <img src="/img/header-3.jpg"  alt="Luxury apartment building in Malta developed by Legacy Ventures Malta" data-bgposition="center center" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="7">
-
-                    <!-- Layer 1 -->
-
+                    
                     <div class="tp-caption tp-shape tp-shape-mask tp-shapewrapper" 
                         data-x="center" data-hoffset="" 
                         data-y="left" data-voffset="" 
@@ -219,54 +134,30 @@
                         data-transform_out="opacity:0;s:1000;s:1000s:1000;e:Power3.easeInOut;"  
                         data-start="0" 
                         data-responsive_offset="on" style="background-color:rgba(10,10,10,0.5);"></div>
-
-                    <!-- Layer 2 -->
-
-                    <div class="slider-title tp-caption tp-resizeme" 
-                        data-x="['center']" data-hoffset="['0']"  
-                        data-y="['middle','middle','middle','middle']" 
-                        data-textAlign="['center']"
-                        data-voffset="['-100']"
-                        data-fontsize="['90','60','50','40']"
-                        data-lineheight="['100','70','60']"
-                        data-height="none"
-                        data-whitespace="nowrap"
-                        data-transform_idle="o:1;"
-                        data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;" 
-                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                        data-mask_in="x:50px;y:0px;s:inherit;e:inherit;" 
-                        data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-                        data-start="500" 
-                        data-splitin="chars" 
-                        data-splitout="none" 
-                        data-responsive_offset="on" 
-                        data-elementdelay="0.05" style="font-family: 'Playfair Display', serif; font-weight: 900;font-size: 80px !important; line-height: 120px !important;">Owner<br>Representation
-
-                    </div>
-
-                    
-                    <!-- Layer 5 -->
-
-                    <div class="tp-caption tp-resizeme" 
-                    data-x="right" 
-                    data-y="bottom" 
-                    data-hoffset="['40']" 
-                    data-voffset="['40']"
-                    data-fontsize="['13']"
-                    data-basealign="slide"
-                    data-transform_idle="o:1;"
-                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1000;e:Power3.easeInOut;" 
-                    data-transform_out="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1000;e:Power3.easeInOut;" 
-                    data-start="2000" 
-                    data-responsive_offset="on" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.480em; text-transform: uppercase;">
-                    2023
-                    </div>
-
                 </li>
             </ul>
             </div>
-        </div>
-
+            
+        </div> -->
+        <!-- <div class="video-lv">
+                <h1 class="video-title-lv">
+                    Legacy Ventues Malta
+                </h1>
+                <h2 class="video-subtitle-lv">
+                    Lorem ipsum dolor sit amet.
+                </h2>
+                <button class="video-button-lv" @click="openVideo">
+                    <div class="icon">
+                        <i class="fa fa-play"></i>
+                    </div>
+                    <div>
+                        <span>
+                            WHO WE ARE
+                        </span>
+                    </div>
+                </button>
+        </div> -->
+        
         <div class="mouse-helper">
             <span>Scroll Down</span>
             <i class="icon ion-mouse"></i>
@@ -279,27 +170,81 @@
 
         <section id="services" class="features bg-dark section">
             <div class="container services-section">
+                <div class="row-base row"> 
+                    <h2 class="section-title text-center col-md-12" style="font-family: 'Lato', sans-serif;">
+                        Lorem ipsum dolor
+                    </h2>
+                </div>
                 <div class="row-base row">
                     <div class="col-base col-feature col-sm-6 col-md-4 wow fadeInUp">
-                        <div class="media-left"><img src="/img/icons/painting.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="Painting and plastering service by Legacy Ventures Malta"></div>
+                        <!-- <div class="media-left"><img src="/img/icons/painting.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="Painting and plastering service by Legacy Ventures Malta"></div> -->
                         <div class="media-right">
-                            <h4 class="text-white service-title">PLASTERING & PAINTING</h4>
-                            <p>Smooth finish for interior and exterior walls and ceilings of residential and commercial properties.</p>
+                            <h4 class="text-white service-title">GENERAL CONTRACING</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper lacus quis tincidunt imperdiet. Nulla.</p>
                         </div>
                     </div>
                     <div class="col-base col-feature col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s" >
-                        <div class="media-left"><img src="/img/icons/tiling.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="Tiling service by Legacy Ventures Malta"></div>
+                        <!-- <div class="media-left"><img src="/img/icons/tiling.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="Tiling service by Legacy Ventures Malta"></div> -->
                         <div class="media-right">
-                            <h4 class="text-white service-title">TILING WORKS</h4>
-                            <p>Professional laying of tiles of any size and material for floor and walls, bathrooms and feature walls.</p>
+                            <h4 class="text-white service-title">PROJECT MANAGEMENT</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper lacus quis tincidunt imperdiet. Nulla.</p>
                         </div>
                     </div>
                     <div class="clearfix visible-sm"></div>
                     <div class="col-base col-feature col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="media-left"><img src="/img/icons/gypsum.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="Gypsum service by Legacy Ventures Malta"></div>
+                        <!-- <div class="media-left"><img src="/img/icons/gypsum.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="Gypsum service by Legacy Ventures Malta"></div> -->
                         <div class="media-right">
-                            <h4 class="text-white service-title">GYPSUM WORKS</h4>
-                            <p>Installation of any design for homes and businesses, such as dry lining, gypsum soffits, coving and more.</p>
+                            <h4 class="text-white service-title">OWNER REPRESENTATION</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper lacus quis tincidunt imperdiet. Nulla.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="solutions section bg-black">
+            <div class="solutions-section">
+                <div class="solutions-title-div">
+                    <h2 class="section-title" style="font-family: 'Lato', sans-serif;">Our Services</h2>
+                </div>
+                <div class="solutions-rows">
+                    <div class="solutions-row">
+                        <div class="solutions-image" style="background-image:url('/img/test.jpg');"></div>
+                        <div class="solutions-col">
+                            <div class="solutions-text">
+                                <h3 style="font-family: 'Lato', sans-serif;">
+                                    PLASTERING & PAINTING
+                                </h3>
+                                <p>
+                                    Smooth finish for interior and exterior walls and ceilings of residential and commercial properties.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="solutions-row">
+                        <div class="solutions-image" style="background-image:url('/img/test.jpg');"></div>
+                        <div class="solutions-col">
+                            <div class="solutions-text">   
+                                <h3 style="font-family: 'Lato', sans-serif;">
+                                    TILING WORKS
+                                </h3>
+                                <p>
+                                    Professional laying of tiles of any size and material for floor and walls, bathrooms and feature walls.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="solutions-row">
+                        <div class="solutions-image" style="background-image:url('/img/test.jpg');"></div>
+                        <div class="solutions-col">
+                            <div class="solutions-text"> 
+                                <h3 style="font-family: 'Lato', sans-serif;">
+                                    GYPSUM WORKS
+                                </h3>
+                                <p>
+                                    Installation of any design for homes and businesses, such as dry lining, gypsum soffits, coving and more.
+                                </p>
+                            </div>   
                         </div>
                     </div>
                 </div>
@@ -384,7 +329,7 @@
                 <div class="container">
                 <div class="row">
                     <header class="text-center col-md-12">
-                    <h2 class="section-title helvica-font">Meet the team</h2>
+                    <h2 class="section-title" style="font-family: 'Lato', sans-serif;">Meet the team</h2>
                     <p class="section-lead">Our people are the key to our success. Legacy Ventures has built a culture of focused and passionate people who, together, collaborate to deliver quality outcomes for our partners and clients.</p>
                     </header>
                 </div>
@@ -474,7 +419,7 @@
             <div class="container">
                 <div class="row">
                 <header class="text-center col-md-12">
-                <h2 class="section-title helvica-font">Testimonials</h2>
+                <h2 class="section-title helvica-font" style="font-family: 'Lato', sans-serif;">Testimonials</h2>
                 <p class="section-lead">Our team of experts has competences of different branches and specializations.</p>
                 </header>
                 </div>
@@ -698,6 +643,7 @@ export default {
             talkEmail: '',
             talkMessage: '',
             talkStatus: 0,
+            showVideo: false,
             subscribeEmail: '',
             subscribeStatus : 0,
             yourApiKey: 'AIzaSyAv7yHHRfNmHaOf_TYmu73fI-Br95QGweA',
@@ -977,6 +923,14 @@ export default {
             .catch(function(error) {
                 this.subscribeStatus = 2;
             });
+        },
+        openVideo() {
+            this.showVideo = true;
+            document.body.style.overflow = 'hidden';
+        },
+        closeVideo() {
+            this.showVideo = false;
+            document.body.style.overflow = '';
         }
     }
 }
@@ -1045,4 +999,176 @@ export default {
     }
 }
 
+.overlay {
+    /* z-index: 7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    position: relative;
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+}
+iframe{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    height: 112%;
+    transform: translateX(-50%);
+}
+/* Adjusting for mobile screens */
+/* @media (max-width: 768px) {
+    .overlay {
+        padding-bottom: 0;
+        height: 100vh; 
+    }
+} */
+.bg-pattern{
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 768px) {
+    iframe{
+        width: 430%;
+    }
+}
+/* .popup {
+    position: relative;
+}
+
+
+
+@media (max-width: 768px){
+    .popup iframe {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (min-width: 992px)
+{
+    .popup iframe {
+        width: 100%;
+        height: 100%;
+    }
+} */
+
+
+.close-icon {
+    position: absolute;
+    top: 1.75rem;
+    right: 1.75rem;
+    cursor: pointer;
+    color: #fff;
+    font-size: 2.5rem;
+}
+.fa-times::before{
+    content: '\00d7' !important;
+}
+@media screen and (max-width: 768px) {
+    .solutions-row {
+        flex-direction: column !important;
+        margin: 0 2rem !important;
+    }
+
+
+    .solutions-image {
+        justify-content: center !important;
+    }
+
+    .solutions-col {
+        width: 100% !important;
+        padding: 0 2rem;
+    }
+    .solutions-image{
+        width: 100% !important;
+        margin: 0 0 2.5rem 0 !important;
+        height: 30vh !important;
+    }
+    .solutions-text{
+        width: 100% !important;
+        max-width: 35rem !important;
+    }
+}
+.solutions-section{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.solutions-title-div{
+    align-items: center;
+    text-align: center;
+}
+
+.solutions-rows{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+.solutions-row{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color:  #222222;
+    margin: 0 20rem;
+}
+
+.solutions-row:nth-child(even) {
+  flex-direction: row;
+}
+
+
+.solutions-col{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    
+    width: 60%;
+}
+
+.solutions-text{
+    max-width: 30rem;
+    width: 100%;
+}
+.solutions-image{
+    /* justify-content: flex-end; */
+}
+.solutions-image {
+    height: 50vw;
+    max-height: 50vh;
+    background: gray;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+</style>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 </style>

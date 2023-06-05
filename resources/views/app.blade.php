@@ -64,5 +64,6 @@
 <script src="./frontend/js/rev-slider/revolution.extension.video.min.js"></script>
 <script src="./frontend/js/rev-slider-init.js"></script>
 <script src="./frontend/js/interface.js"></script> 
+<script src="https://player.vimeo.com/api/player.js"></script>
 </body>
 </html>

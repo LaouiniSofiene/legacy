@@ -1158,7 +1158,116 @@ i.icon{
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
 }
+.video-lv{
+  z-index: 5;
+  color: #fff;
+  position: absolute;
+  left: 39.5%;
+  bottom: 16em;
+  font-size: 0.7em;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 45rem;
+}
 
+@media screen and (max-width: 768px) {
+  .video-lv{
+    left: 55%;
+  }
+}
+
+.video-title-lv{
+  text-transform: uppercase;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #fefefe;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: 'Raleway', sans-serif;
+}
+.video-title-lv::before{
+  content: '';
+  width: 2rem;
+  height: 2px;
+  margin: 0 0.75rem 0 0;
+  background: #aaaaaa;
+}
+.video-subtitle-lv{
+  text-transform: uppercase;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fefefe;
+  font-weight: 600;
+  font-size: 4rem;
+  margin-top: 1.5rem;
+  line-height: 1.1;
+  font-family: 'Raleway', sans-serif;
+}
+.video-button-lv{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: transparent;
+  border: none;
+}
+.video-button-lv div span{
+  font-size: 1rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+.video-button-lv .icon{
+  width: 4rem;
+  height: 4rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fefefe;
+  border-radius: 50%;
+  background: #a1a1a194;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.video-button-lv:hover .icon{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.video-button-lv .icon i{
+  position: relative;
+  z-index: 1;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
 
 
 /* 3.1 Slider */
