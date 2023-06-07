@@ -20,7 +20,7 @@
             <!-- Navigation Desctop -->
 
             <nav class="nav nav-desctop hidden-xs hidden-sm">
-            <ul class="nav-desctop-list">
+            <ul class="nav-desctop-list inter-font">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
@@ -41,13 +41,13 @@
 
             <nav class="nav nav-mobile">
             <div class="collapse" id="nav-collapse"> 
-                <ul class="nav-mobile-list">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#clients">Clients</a></li>
-                <li><a href="#careers">Careers</a></li>
+                <ul class="nav-mobile-list inter-font">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#clients">Clients</a></li>
+                    <li><a href="#careers">Careers</a></li>
                 </ul>
             </div>
             </nav> 
@@ -171,7 +171,7 @@
         <section id="services" class="features bg-dark section">
             <div class="container services-section">
                 <div class="row-base row"> 
-                    <h2 class="section-title text-center col-md-12" style="font-family: 'Lato', sans-serif;">
+                    <h2 class="section-title text-center col-md-12 playfair-font">
                         Lorem ipsum dolor
                     </h2>
                 </div>
@@ -179,43 +179,43 @@
                     <div class="col-base col-feature col-sm-6 col-md-4 wow fadeInUp">
                         <!-- <div class="media-left"><img src="/img/icons/painting.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="Painting and plastering service by Legacy Ventures Malta"></div> -->
                         <div class="media-right">
-                            <h4 class="text-white service-title">GENERAL CONTRACING</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper lacus quis tincidunt imperdiet. Nulla.</p>
+                            <h4 class="text-white service-title text-center playfair-font">GENERAL CONTRACING</h4>
+                            <p class="text-center inter-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper lacus quis tincidunt imperdiet. Nulla.</p>
                         </div>
                     </div>
                     <div class="col-base col-feature col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s" >
                         <!-- <div class="media-left"><img src="/img/icons/tiling.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="Tiling service by Legacy Ventures Malta"></div> -->
                         <div class="media-right">
-                            <h4 class="text-white service-title">PROJECT MANAGEMENT</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper lacus quis tincidunt imperdiet. Nulla.</p>
+                            <h4 class="text-white service-title text-center playfair-font">PROJECT MANAGEMENT</h4>
+                            <p class="text-center inter-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper lacus quis tincidunt imperdiet. Nulla.</p>
                         </div>
                     </div>
                     <div class="clearfix visible-sm"></div>
                     <div class="col-base col-feature col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
                         <!-- <div class="media-left"><img src="/img/icons/gypsum.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="Gypsum service by Legacy Ventures Malta"></div> -->
                         <div class="media-right">
-                            <h4 class="text-white service-title">OWNER REPRESENTATION</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper lacus quis tincidunt imperdiet. Nulla.</p>
+                            <h4 class="text-white service-title text-center playfair-font">OWNER REPRESENTATION</h4>
+                            <p class="text-center inter-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper lacus quis tincidunt imperdiet. Nulla.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="solutions section bg-black">
+        <section class="solutions section bg-dark" style="padding-top: 0;">
             <div class="solutions-section">
                 <div class="solutions-title-div">
-                    <h2 class="section-title" style="font-family: 'Lato', sans-serif;">Our Services</h2>
+                    <h2 class="section-title playfair-font">Our Services</h2>
                 </div>
                 <div class="solutions-rows">
                     <div class="solutions-row">
                         <div class="solutions-image" style="background-image:url('/img/test.jpg');"></div>
                         <div class="solutions-col">
                             <div class="solutions-text">
-                                <h3 style="font-family: 'Lato', sans-serif;">
+                                <h3 class="playfair-font">
                                     PLASTERING & PAINTING
                                 </h3>
-                                <p>
+                                <p class="inter-font">
                                     Smooth finish for interior and exterior walls and ceilings of residential and commercial properties.
                                 </p>
                             </div>
@@ -225,10 +225,10 @@
                         <div class="solutions-image" style="background-image:url('/img/test.jpg');"></div>
                         <div class="solutions-col">
                             <div class="solutions-text">   
-                                <h3 style="font-family: 'Lato', sans-serif;">
+                                <h3 class="playfair-font">
                                     TILING WORKS
                                 </h3>
-                                <p>
+                                <p class="inter-font">
                                     Professional laying of tiles of any size and material for floor and walls, bathrooms and feature walls.
                                 </p>
                             </div>
@@ -238,10 +238,10 @@
                         <div class="solutions-image" style="background-image:url('/img/test.jpg');"></div>
                         <div class="solutions-col">
                             <div class="solutions-text"> 
-                                <h3 style="font-family: 'Lato', sans-serif;">
+                                <h3 class="playfair-font">
                                     GYPSUM WORKS
                                 </h3>
-                                <p>
+                                <p class="inter-font">
                                     Installation of any design for homes and businesses, such as dry lining, gypsum soffits, coving and more.
                                 </p>
                             </div>   
@@ -262,7 +262,7 @@
                     <div class="showcase-item-thumbnail"><img alt="Legacy Ventures Malta Portfolio 1" src="/img/portfolio-1.jpg"></div>
                     <figcaption class="showcase-item-hover hover-dark">
                     <div class="showcase-item-info">
-                        <div class="showcase-item-title">Portfolio Image 1</div>
+                        <div class="showcase-item-title playfair-font">Portfolio Image 1</div>
                         <i class="ion-ios-plus-empty"></i>
                     </div>
                     </figcaption>
@@ -275,7 +275,7 @@
                     <div class="showcase-item-thumbnail"><img alt="Legacy Ventures Malta Portfolio 2" src="/img/portfolio-2.jpg" style="filter: grayscale(90%);"></div>
                     <figcaption class="showcase-item-hover hover-dark">
                     <div class="showcase-item-info">
-                        <div class="showcase-item-title">Portfolio Image 2</div>
+                        <div class="showcase-item-title playfair-font">Portfolio Image 2</div>
                         <i class="ion-ios-plus-empty"></i>
                     </div>
                     </figcaption>
@@ -288,7 +288,7 @@
                     <div class="showcase-item-thumbnail"><img alt="Legacy Ventures Malta Portfolio 3" src="/img/portfolio-3.jpg" style="filter: grayscale(90%);"></div>
                     <figcaption class="showcase-item-hover hover-dark">
                     <div class="showcase-item-info">
-                        <div class="showcase-item-title">Portfolio Image 3</div>
+                        <div class="showcase-item-title playfair-font">Portfolio Image 3</div>
                         <i class="ion-ios-plus-empty"></i>
                     </div>
                     </figcaption>
@@ -301,7 +301,7 @@
                     <div class="showcase-item-thumbnail"><img alt="Legacy Ventures Malta Portfolio 4" src="/img/portfolio-4.jpg" style="filter: grayscale(90%);"></div>
                     <figcaption class="showcase-item-hover hover-dark">
                     <div class="showcase-item-info">
-                        <div class="showcase-item-title">Portfolio Image 4</div>
+                        <div class="showcase-item-title playfair-font">Portfolio Image 4</div>
                         <i class="ion-ios-plus-empty"></i>
                     </div>
                     </figcaption>
@@ -314,7 +314,7 @@
                     <div class="showcase-item-thumbnail"><img alt="Legacy Ventures Malta Portfolio 5" src="/img/portfolio-5.jpg" style="filter: grayscale(90%);"></div>
                     <figcaption class="showcase-item-hover hover-dark">
                     <div class="showcase-item-info">
-                        <div class="showcase-item-title">Portfolio Image 5</div>
+                        <div class="showcase-item-title playfair-font">Portfolio Image 5</div>
                         <i class="ion-ios-plus-empty"></i>
                     </div>
                     </figcaption>
@@ -329,8 +329,8 @@
                 <div class="container">
                 <div class="row">
                     <header class="text-center col-md-12">
-                    <h2 class="section-title" style="font-family: 'Lato', sans-serif;">Meet the team</h2>
-                    <p class="section-lead">Our people are the key to our success. Legacy Ventures has built a culture of focused and passionate people who, together, collaborate to deliver quality outcomes for our partners and clients.</p>
+                    <h2 class="section-title playfair-font">Meet the team</h2>
+                    <p class="section-lead inter-font">Our people are the key to our success. Legacy Ventures has built a culture of focused and passionate people who, together, collaborate to deliver quality outcomes for our partners and clients.</p>
                     </header>
                 </div>
                 </div>
@@ -341,14 +341,14 @@
                         <img alt="Legacy Ventures Malta" src="/img/8.jpg">
                         <figcaption class="team-caption white">
                         <div class="team-meta">
-                            <strong class="team-name">Martin Azzopardi</strong>
-                            <span class="team-spec">Managing Director</span>
+                            <strong class="team-name playfair-font">Martin Azzopardi</strong>
+                            <span class="team-spec inter-font">Managing Director</span>
                         </div>
                         <ul class="team-social social-list">
                             <li>
                                 <a id="envelope-icon" href="mailto:martin@legacyventuresmalta.com" class="fa fa-envelope"></a>
                                 &nbsp;
-                                <a id="team-member-email" href="mailto:martin@legacyventuresmalta.com">martin@legacyventuresmalta.com</a>
+                                <a id="team-member-email" class="inter-font" href="mailto:martin@legacyventuresmalta.com">martin@legacyventuresmalta.com</a>
                             </li>
                         </ul>
                         </figcaption>
@@ -359,14 +359,14 @@
                         <img alt="Legacy Ventures Malta" src="/img/6.jpg">
                         <figcaption class="team-caption white">
                         <div class="team-meta">
-                            <strong class="team-name">Etienne Pavia</strong>
-                            <span class="team-spec">Project Manager</span>
+                            <strong class="team-name playfair-font">Etienne Pavia</strong>
+                            <span class="team-spec inter-font">Project Manager</span>
                         </div>
                         <ul class="team-social social-list">
                             <li>
                                 <a id="envelope-icon" href="mailto:etienne@legacyventuresmalta.com" class="fa fa-envelope"></a>
                                 &nbsp;
-                                <a id="team-member-email" href="mailto:etienne@legacyventuresmalta.com">etienne@legacyventuresmalta.com</a>
+                                <a id="team-member-email" class="inter-font" href="mailto:etienne@legacyventuresmalta.com">etienne@legacyventuresmalta.com</a>
                             </li>
                         </ul>
                         </figcaption>
@@ -377,14 +377,14 @@
                         <img alt="Legacy Ventures Malta" src="/img/11.jpg">
                         <figcaption class="team-caption white">
                         <div class="team-meta">
-                            <strong class="team-name">Gianluca Vella Valletta</strong>
-                            <span class="team-spec">Project Manager</span>
+                            <strong class="team-name playfair-font">Gianluca Vella Valletta</strong>
+                            <span class="team-spec inter-font">Project Manager</span>
                         </div>
                         <ul class="team-social social-list">
                             <li>
                                 <a id="envelope-icon" href="mailto:gianluca@legacyventuresmalta.com" class="fa fa-envelope"></a>
                                 &nbsp;
-                                <a id="team-member-email" href="mailto:gianluca@legacyventuresmalta.com">gianluca@legacyventuresmalta.com</a>
+                                <a id="team-member-email" class="inter-font" href="mailto:gianluca@legacyventuresmalta.com">gianluca@legacyventuresmalta.com</a>
                             </li>
                         </ul>
                         </figcaption>
@@ -395,14 +395,14 @@
                         <img alt="Legacy Ventures Malta" src="/img/1.jpg">
                         <figcaption class="team-caption white">
                         <div class="team-meta">
-                            <strong class="team-name">Lorraine Pavia</strong>
-                            <span class="team-spec">Office Administrator</span>
+                            <strong class="team-name playfair-font">Lorraine Pavia</strong>
+                            <span class="team-spec inter-font">Office Administrator</span>
                         </div>
                         <ul class="team-social social-list">
                             <li>
                                 <a id="envelope-icon" href="mailto:lorraine@legacyventuresmalta.com" class="fa fa-envelope"></a>
                                 &nbsp;
-                                <a id="team-member-email" href="mailto:lorraine@legacyventuresmalta.com">lorraine@legacyventuresmalta.com</a>
+                                <a id="team-member-email" class="inter-font" href="mailto:lorraine@legacyventuresmalta.com">lorraine@legacyventuresmalta.com</a>
                             </li>
                         </ul>
                         </figcaption>
@@ -419,8 +419,8 @@
             <div class="container">
                 <div class="row">
                 <header class="text-center col-md-12">
-                <h2 class="section-title helvica-font" style="font-family: 'Lato', sans-serif;">Testimonials</h2>
-                <p class="section-lead">Our team of experts has competences of different branches and specializations.</p>
+                <h2 class="section-title playfair-font">Testimonials</h2>
+                <p class="section-lead inter-font">Our team of experts has competences of different branches and specializations.</p>
                 </header>
                 </div>
             </div>
@@ -431,27 +431,27 @@
                     <div class="client-carousel js-client-carousel">
                         <div class="client">
                         <span class="quote">"</span>
-                        <p class="client-text">
+                        <p class="client-text inter-font">
                             I was impressed by the efficiency and attention to detail of Legacy during my tiling project. The team completed the project on time and within the discussed budget. I highly recommend them for finishing services.</p>
-                        <span class="h5 client-name">Steve Caruana</span>
+                        <span class="h5 client-name playfair-font">Steve Caruana</span>
                         </div>
                         <div class="client">
                         <span class="quote">"</span>
-                        <p class="client-text">
+                        <p class="client-text inter-font">
                             I worked with Legacy Ventures for gypsum board installation, plastering and painting of my new shop in St.Julians. The project was handled from start to finish and the quality workmanship and cleanliness was exceptional.</p>
-                        <span class="h5 client-name">Silvan Mifsud</span>
+                        <span class="h5 client-name playfair-font">Silvan Mifsud</span>
                         </div>
                         <div class="client">
                         <span class="quote">"</span>
-                        <p class="client-text">
+                        <p class="client-text inter-font">
                             Great guys and a very simple and transparent process from start to finish. I have no problem recommending these guys and their brand and will not hesitate to use them again. Thanks for a professional job. Thanks gents, Phil.</p>
-                        <span class="h5 client-name">Phillip Hogan</span>
+                        <span class="h5 client-name playfair-font">Phillip Hogan</span>
                         </div>
                         <div class="client">
                         <span class="quote">"</span>
-                        <p class="client-text">
+                        <p class="client-text inter-font">
                             I contacted legacy for a bathroom renovation. Martin contacted me and made an appointment to visit. He gave us a quote, which my wife and myself agreed with. The job was done quickly and they even cleaned up after themselves.</p>
-                        <span class="h5 client-name">Michael Scicluna</span>
+                        <span class="h5 client-name playfair-font">Michael Scicluna</span>
                         </div>
                     </div>
                     </div>
@@ -467,8 +467,8 @@
             <div class="container">
             <div class="row">
                 <header class="text-center col-md-10 col-md-offset-1">
-                    <h2 class="section-title helvica-font">Careers</h2>
-                    <p class="section-lead">Legacy Ventures wouldn't be the business we are today without our people. We're proud to support our members with an engaging workplace where leadership and initiative are rewarded.</p>
+                    <h2 class="section-title playfair-font">Careers</h2>
+                    <p class="section-lead inter-font">Legacy Ventures wouldn't be the business we are today without our people. We're proud to support our members with an engaging workplace where leadership and initiative are rewarded.</p>
                 </header>
             </div>
             </div>
@@ -485,7 +485,7 @@
                                 <h4 class="col-news-title">{{vacancy.name}}</h4>
                                 <p>{{vacancy.description}}</p>
                                 <br><br>
-                                <a data-toggle="modal" class="wow swing" href="#request">Contact us</a>
+                                <a data-toggle="modal" class="wow swing inter-font" href="#request">Contact us</a>
                                 </div>
                             </div>
                         </div>
@@ -498,9 +498,9 @@
 
         <section class="promo section bg-black" style="padding-top: 9.1em !important;">
             <div class="container">
-                <h2 class="section-title helvica-font">Get in touch with us</h2>
-                    <p class="section-lead">Looking for a reliable and affordable contractor for your next project?</p><br>
-            <a href="#request" data-toggle="modal" class="btn btn-dark wow swing">Let's talk</a>
+                <h2 class="section-title playfair-font">Get in touch with us</h2>
+                    <p class="section-lead inter-font">Looking for a reliable and affordable contractor for your next project?</p><br>
+            <a href="#request" data-toggle="modal" class="btn btn-dark wow swing playfair-font">Let's talk</a>
             </div>
         </section>
 
@@ -514,12 +514,12 @@
                 <a href="#top" class="brand js-target-scroll helvica-font footer-logo">
                     <img width="330" style="width: 330px;" src="/img/legacy-ventures-logo.png"  alt="Legacy Ventures Malta">
                 </a>
-                <p>we are dedicated to providing high-quality finished for construction projects, from commercial buildings to residential homes.</p>
+                <p class="inter-font">we are dedicated to providing high-quality finished for construction projects, from commercial buildings to residential homes.</p>
                 </div>
 
                 <div class="col-contacts col-base col-sm-6 col-md-4 col-md-offset-1">
                 <!-- <a href="tel:88005553535" class="phone">+8 800 555 35 35</a><br> -->
-                    <a href="mailto:info@legacyventuresmalta.eu" class="email">Info@legacyventuresmalta.eu</a>
+                    <a href="mailto:info@legacyventuresmalta.eu" class="email inter-font">Info@legacyventuresmalta.eu</a>
                     <br>
                     <ul class="social-list" style="margin-top: 15px;">
                             <li><a style="font-size: 1.5em;" href="https://www.facebook.com/legacyventuresmalta" class="fa fa-facebook"></a></li>
@@ -527,7 +527,7 @@
                     </ul>  
                 </div>
                 <div class="col-subscribe col-base col-sm-6 col-md-3 mobile-top-spacing">
-                <div class="subscribe-title">Subscribe to our newsletter</div>
+                <div class="subscribe-title playfair-font">Subscribe to our newsletter</div>
                 <form class="subscribe-form js-subscribe-form" @submit.prevent="subscribe">
                     <div class="input-group">
                     <input id="mc-email" type="email" class="input-round form-control" placeholder="Email" v-model="subscribeEmail" style="color: black;">
@@ -542,7 +542,7 @@
             </div>
             <div class="footer-bottom">
             <div class="container">
-                <div class="copyrights">
+                <div class="copyrights inter-font">
                 © Copyright 2023 Legacy. All Rights Reserved
                 </div>
                 
@@ -559,18 +559,18 @@
                 <div style="min-width: 50%;">
                     <div class="modal-header" v-if="talkStatus == 1">
                         <span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
-                        <h2 class="modal-title">Thank you</h2>
-                        <p class="modal-info">Your message is successfully sent...</p>
+                        <h2 class="modal-title playfair-font">Thank you</h2>
+                        <p class="modal-info inter-font">Your message is successfully sent...</p>
                     </div>
                     <div class="modal-header" v-else-if="talkStatus == 2">
                         <span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
-                        <h2 class="modal-title">Sorry</h2>
-                        <p class="modal-info"> Something went wrong </p>
+                        <h2 class="modal-title playfair-font">Sorry</h2>
+                        <p class="modal-info inter-font"> Something went wrong </p>
                     </div>
                     <div class="modal-header" v-else>
                         <span class="close" data-dismiss="modal" aria-label="Close">&times;</span>
-                        <h2 class="modal-title">Get in touch</h2>
-                        <p class="modal-info">Leave your contact and your enquiry, <br> and our managers will contact you shortly.</p>
+                        <h2 class="modal-title playfair-font">Get in touch</h2>
+                        <p class="modal-info inter-font">Leave your contact and your enquiry, <br> and our managers will contact you shortly.</p>
                     </div>
                     <div class="modal-body">
                         <form class="form-request" @submit.prevent="letsTalk">
@@ -584,7 +584,7 @@
                                 <textarea rows="3" name="message" placeholder="Message" v-model="talkMessage"></textarea>
                             </div>
                             <div class="modal-footer">
-                                <button type="submit" class="btn btn-dark btn-block">Get start</button>
+                                <button type="submit" class="btn btn-dark btn-block playfair-font">Get start</button>
                             </div>
                         </form>
                     </div>
@@ -610,8 +610,8 @@
             <div class="modal-content">
             <div class="modal-header">
                 <span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
-                <h2 class="modal-title">Thank you</h2>
-                <p class="modal-subtitle">Your message is successfully sent...</p>
+                <h2 class="modal-title playfair-font">Thank you</h2>
+                <p class="modal-subtitle inter-font">Your message is successfully sent...</p>
             </div>
             </div>
         </div>
@@ -624,8 +624,8 @@
             <div class="modal-content">
             <div class="modal-header">
                 <span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
-                <h2 class="modal-title">Sorry</h2>
-                <p class="modal-subtitle"> Something went wrong </p>
+                <h2 class="modal-title playfair-font">Sorry</h2>
+                <p class="modal-subtitle inter-font"> Something went wrong </p>
             </div>
             </div>
         </div>
@@ -966,8 +966,20 @@ export default {
     }
 }
 
+.service-title{
+    font-size: 1.5em;
+}
+
 .helvica-font{
     font-family: Helvetica, sans-serif;
+}
+
+.playfair-font{
+    font-family: 'Playfair Display', serif;
+}
+
+.inter-font{
+    font-family: 'Inter', sans-serif;
 }
 
 .header-logo{
@@ -1115,15 +1127,15 @@ iframe{
 .solutions-rows{
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 0rem;
 
 }
 .solutions-row{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    background-color:  #222222;
-    margin: 0 20rem;
+    background-color:  #1c1c1c;
+    /* margin: 0 20rem; */
 }
 
 .solutions-row:nth-child(even) {
@@ -1151,12 +1163,12 @@ iframe{
 }
 .solutions-image {
     height: 50vw;
-    max-height: 50vh;
+    max-height: 65vh;
     background: gray;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 50%;
+    width: 60%;
     margin: 0;
 }
 
@@ -1171,4 +1183,5 @@ iframe{
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 </style>
