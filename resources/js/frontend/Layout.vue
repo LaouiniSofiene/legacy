@@ -23,7 +23,7 @@
             <ul class="nav-desctop-list inter-font">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <!-- <li><a href="#portfolio">Portfolio</a></li> -->
                 <li><a href="#team">Team</a></li>
                 <li><a href="#clients">Clients</a></li>
                 <li><a href="#careers">Careers</a></li>
@@ -44,7 +44,7 @@
                 <ul class="nav-mobile-list inter-font">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
+                    <!-- <li><a href="#portfolio">Portfolio</a></li> -->
                     <li><a href="#team">Team</a></li>
                     <li><a href="#clients">Clients</a></li>
                     <li><a href="#careers">Careers</a></li>
@@ -171,7 +171,7 @@
         <section id="services" class="features bg-dark section">
             <div class="container services-section">
                 <div class="row-base row"> 
-                    <h2 class="section-title text-center col-md-12 playfair-font">
+                    <h2 class="section-title text-center col-md-12 inter-font">
                         Lorem ipsum dolor
                     </h2>
                 </div>
@@ -179,14 +179,14 @@
                     <div class="col-base col-feature col-sm-6 col-md-4 wow fadeInUp">
                         <!-- <div class="media-left"><img src="/img/icons/painting.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="Painting and plastering service by Legacy Ventures Malta"></div> -->
                         <div class="media-right">
-                            <h4 class="text-white service-title text-center playfair-font">GENERAL CONTRACING</h4>
+                            <h4 class="text-white service-title text-center inter-font">GENERAL CONTRACING</h4>
                             <p class="text-center inter-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper lacus quis tincidunt imperdiet. Nulla.</p>
                         </div>
                     </div>
                     <div class="col-base col-feature col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s" >
                         <!-- <div class="media-left"><img src="/img/icons/tiling.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="Tiling service by Legacy Ventures Malta"></div> -->
                         <div class="media-right">
-                            <h4 class="text-white service-title text-center playfair-font">PROJECT MANAGEMENT</h4>
+                            <h4 class="text-white service-title text-center inter-font">PROJECT MANAGEMENT</h4>
                             <p class="text-center inter-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper lacus quis tincidunt imperdiet. Nulla.</p>
                         </div>
                     </div>
@@ -194,7 +194,7 @@
                     <div class="col-base col-feature col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
                         <!-- <div class="media-left"><img src="/img/icons/gypsum.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="Gypsum service by Legacy Ventures Malta"></div> -->
                         <div class="media-right">
-                            <h4 class="text-white service-title text-center playfair-font">OWNER REPRESENTATION</h4>
+                            <h4 class="text-white service-title text-center inter-font">OWNER REPRESENTATION</h4>
                             <p class="text-center inter-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper lacus quis tincidunt imperdiet. Nulla.</p>
                         </div>
                     </div>
@@ -202,47 +202,47 @@
             </div>
         </section>
 
-        <section class="solutions section bg-dark" style="padding-top: 0;">
+        <section class="solutions section bg-dark" style="padding-top: 0;padding-bottom: 0;">
             <div class="solutions-section">
-                <div class="solutions-title-div">
-                    <h2 class="section-title playfair-font">Our Services</h2>
-                </div>
+                <!-- <div class="solutions-title-div">
+                    <h2 class="section-title inter-font">Our Services</h2>
+                </div> -->
                 <div class="solutions-rows">
                     <div class="solutions-row">
-                        <div class="solutions-image" style="background-image:url('/img/test.jpg');"></div>
+                        <div class="solutions-image" style="background-image:url('/img/portfolio-1.jpg');filter:grayscale(90%);"></div>
                         <div class="solutions-col">
                             <div class="solutions-text">
-                                <h3 class="playfair-font">
+                                <h3 class="inter-font">
                                     PLASTERING & PAINTING
                                 </h3>
                                 <p class="inter-font">
-                                    Smooth finish for interior and exterior walls and ceilings of residential and commercial properties.
+                                    We excel in the art of plastering. With a focus on protecting and preparing your ceilings, walls, and structures, we ensure a solid foundation before adding exquisite moulding and decorative elements to enhance both the interior and exterior of your building. Our expertise lies in providing the perfect finishing touches that bring your vision to life.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="solutions-row">
-                        <div class="solutions-image" style="background-image:url('/img/test.jpg');"></div>
+                        <div class="solutions-image" style="background-image:url('/img/portfolio-2.jpg');filter:grayscale(90%);"></div>
                         <div class="solutions-col">
                             <div class="solutions-text">   
-                                <h3 class="playfair-font">
+                                <h3 class="inter-font">
                                     TILING WORKS
                                 </h3>
                                 <p class="inter-font">
-                                    Professional laying of tiles of any size and material for floor and walls, bathrooms and feature walls.
+                                    With our expertise and meticulous craftsmanship, we specialize in providing professional tile installation services for floors, walls, bathrooms, facades, and stunning feature walls, using tiles of any size and material to bring your vision to life. Our skilled team ensures precise placement and flawless finishes, transforming your space into a work of art.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="solutions-row">
-                        <div class="solutions-image" style="background-image:url('/img/test.jpg');"></div>
+                        <div class="solutions-image" style="background-image:url('/img/portfolio-3.jpg');filter:grayscale(90%);"></div>
                         <div class="solutions-col">
                             <div class="solutions-text"> 
-                                <h3 class="playfair-font">
-                                    GYPSUM WORKS
+                                <h3 class="inter-font">
+                                    GYPSUM BORAD INSTALLATION
                                 </h3>
                                 <p class="inter-font">
-                                    Installation of any design for homes and businesses, such as dry lining, gypsum soffits, coving and more.
+                                    This modern technique is being used as an effective method to divide rooms according to a client's  requirements. We ensure a neat finish and make use of a high European standard of quality materials to ensure durability and longevity of your investment. Gypsum boards used are also fire rated and resistant to humidity. 
                                 </p>
                             </div>   
                         </div>
@@ -254,7 +254,7 @@
 
         <!-- Portfolio -->
 
-        <section id="portfolio" class="porftolio">
+        <!-- <section id="portfolio" class="porftolio">
             <div class="isotope js-gallery">
             <div class="isotope-item livingroom">
                 <a href="/img/portfolio-1.jpg" title="Portfolio Image 1">
@@ -262,7 +262,7 @@
                     <div class="showcase-item-thumbnail"><img alt="Legacy Ventures Malta Portfolio 1" src="/img/portfolio-1.jpg"></div>
                     <figcaption class="showcase-item-hover hover-dark">
                     <div class="showcase-item-info">
-                        <div class="showcase-item-title playfair-font">Portfolio Image 1</div>
+                        <div class="showcase-item-title inter-font">Portfolio Image 1</div>
                         <i class="ion-ios-plus-empty"></i>
                     </div>
                     </figcaption>
@@ -275,7 +275,7 @@
                     <div class="showcase-item-thumbnail"><img alt="Legacy Ventures Malta Portfolio 2" src="/img/portfolio-2.jpg" style="filter: grayscale(90%);"></div>
                     <figcaption class="showcase-item-hover hover-dark">
                     <div class="showcase-item-info">
-                        <div class="showcase-item-title playfair-font">Portfolio Image 2</div>
+                        <div class="showcase-item-title inter-font">Portfolio Image 2</div>
                         <i class="ion-ios-plus-empty"></i>
                     </div>
                     </figcaption>
@@ -288,7 +288,7 @@
                     <div class="showcase-item-thumbnail"><img alt="Legacy Ventures Malta Portfolio 3" src="/img/portfolio-3.jpg" style="filter: grayscale(90%);"></div>
                     <figcaption class="showcase-item-hover hover-dark">
                     <div class="showcase-item-info">
-                        <div class="showcase-item-title playfair-font">Portfolio Image 3</div>
+                        <div class="showcase-item-title inter-font">Portfolio Image 3</div>
                         <i class="ion-ios-plus-empty"></i>
                     </div>
                     </figcaption>
@@ -301,7 +301,7 @@
                     <div class="showcase-item-thumbnail"><img alt="Legacy Ventures Malta Portfolio 4" src="/img/portfolio-4.jpg" style="filter: grayscale(90%);"></div>
                     <figcaption class="showcase-item-hover hover-dark">
                     <div class="showcase-item-info">
-                        <div class="showcase-item-title playfair-font">Portfolio Image 4</div>
+                        <div class="showcase-item-title inter-font">Portfolio Image 4</div>
                         <i class="ion-ios-plus-empty"></i>
                     </div>
                     </figcaption>
@@ -314,7 +314,7 @@
                     <div class="showcase-item-thumbnail"><img alt="Legacy Ventures Malta Portfolio 5" src="/img/portfolio-5.jpg" style="filter: grayscale(90%);"></div>
                     <figcaption class="showcase-item-hover hover-dark">
                     <div class="showcase-item-info">
-                        <div class="showcase-item-title playfair-font">Portfolio Image 5</div>
+                        <div class="showcase-item-title inter-font">Portfolio Image 5</div>
                         <i class="ion-ios-plus-empty"></i>
                     </div>
                     </figcaption>
@@ -322,14 +322,14 @@
                 </a>
             </div> 
             </div>
-        </section>
+        </section> -->
 
         <!-- Team -->
-        <section id="team" class="team section pb-0">
+        <section id="team" class="team section pb-0" style="padding-top: 4em;">
                 <div class="container">
                 <div class="row">
                     <header class="text-center col-md-12">
-                    <h2 class="section-title playfair-font">Meet the team</h2>
+                    <h2 class="section-title inter-font">Meet the team</h2>
                     <p class="section-lead inter-font">Our people are the key to our success. Legacy Ventures has built a culture of focused and passionate people who, together, collaborate to deliver quality outcomes for our partners and clients.</p>
                     </header>
                 </div>
@@ -341,7 +341,7 @@
                         <img alt="Legacy Ventures Malta" src="/img/8.jpg">
                         <figcaption class="team-caption white">
                         <div class="team-meta">
-                            <strong class="team-name playfair-font">Martin Azzopardi</strong>
+                            <strong class="team-name inter-font">Martin Azzopardi</strong>
                             <span class="team-spec inter-font">Managing Director</span>
                         </div>
                         <ul class="team-social social-list">
@@ -359,7 +359,7 @@
                         <img alt="Legacy Ventures Malta" src="/img/6.jpg">
                         <figcaption class="team-caption white">
                         <div class="team-meta">
-                            <strong class="team-name playfair-font">Etienne Pavia</strong>
+                            <strong class="team-name inter-font">Etienne Pavia</strong>
                             <span class="team-spec inter-font">Project Manager</span>
                         </div>
                         <ul class="team-social social-list">
@@ -377,7 +377,7 @@
                         <img alt="Legacy Ventures Malta" src="/img/11.jpg">
                         <figcaption class="team-caption white">
                         <div class="team-meta">
-                            <strong class="team-name playfair-font">Gianluca Vella Valletta</strong>
+                            <strong class="team-name inter-font">Gianluca Vella Valletta</strong>
                             <span class="team-spec inter-font">Project Manager</span>
                         </div>
                         <ul class="team-social social-list">
@@ -395,7 +395,7 @@
                         <img alt="Legacy Ventures Malta" src="/img/1.jpg">
                         <figcaption class="team-caption white">
                         <div class="team-meta">
-                            <strong class="team-name playfair-font">Lorraine Pavia</strong>
+                            <strong class="team-name inter-font">Lorraine Pavia</strong>
                             <span class="team-spec inter-font">Office Administrator</span>
                         </div>
                         <ul class="team-social social-list">
@@ -415,43 +415,43 @@
 
         <!-- Clients -->
 
-        <section id="clients" class="clients section">
+        <section id="clients" :class="vacancies.length ? 'clients section bg-black' : 'clients section bg-dark'" >
             <div class="container">
                 <div class="row">
                 <header class="text-center col-md-12">
-                <h2 class="section-title playfair-font">Testimonials</h2>
+                <h2 class="section-title inter-font">Testimonials</h2>
                 <p class="section-lead inter-font">Our team of experts has competences of different branches and specializations.</p>
                 </header>
                 </div>
             </div>
             <div class="section-content">
                 <div class="container-fluid">
-                <div class="col-md-6 col-md-offset-3">
+                <div class="col-md-9" style="margin-left: 15%;margin-right: 15%;">
                     <div class="clients-wrapper">
                     <div class="client-carousel js-client-carousel">
                         <div class="client">
                         <span class="quote">"</span>
                         <p class="client-text inter-font">
                             I was impressed by the efficiency and attention to detail of Legacy during my tiling project. The team completed the project on time and within the discussed budget. I highly recommend them for finishing services.</p>
-                        <span class="h5 client-name playfair-font">Steve Caruana</span>
+                        <span class="h5 client-name inter-font">Steve Caruana</span>
                         </div>
                         <div class="client">
                         <span class="quote">"</span>
                         <p class="client-text inter-font">
                             I worked with Legacy Ventures for gypsum board installation, plastering and painting of my new shop in St.Julians. The project was handled from start to finish and the quality workmanship and cleanliness was exceptional.</p>
-                        <span class="h5 client-name playfair-font">Silvan Mifsud</span>
+                        <span class="h5 client-name inter-font">Silvan Mifsud</span>
                         </div>
                         <div class="client">
                         <span class="quote">"</span>
                         <p class="client-text inter-font">
                             Great guys and a very simple and transparent process from start to finish. I have no problem recommending these guys and their brand and will not hesitate to use them again. Thanks for a professional job. Thanks gents, Phil.</p>
-                        <span class="h5 client-name playfair-font">Phillip Hogan</span>
+                        <span class="h5 client-name inter-font">Phillip Hogan</span>
                         </div>
                         <div class="client">
                         <span class="quote">"</span>
                         <p class="client-text inter-font">
                             I contacted legacy for a bathroom renovation. Martin contacted me and made an appointment to visit. He gave us a quote, which my wife and myself agreed with. The job was done quickly and they even cleaned up after themselves.</p>
-                        <span class="h5 client-name playfair-font">Michael Scicluna</span>
+                        <span class="h5 client-name inter-font">Michael Scicluna</span>
                         </div>
                     </div>
                     </div>
@@ -463,11 +463,11 @@
 
         <!-- news -->
 
-        <section id="careers" class="news section" style="padding-top: 0px !important;">
+        <section id="careers" class="news section" v-if="vacancies.length">
             <div class="container">
             <div class="row">
                 <header class="text-center col-md-10 col-md-offset-1">
-                    <h2 class="section-title playfair-font">Careers</h2>
+                    <h2 class="section-title inter-font">Careers</h2>
                     <p class="section-lead inter-font">Legacy Ventures wouldn't be the business we are today without our people. We're proud to support our members with an engaging workplace where leadership and initiative are rewarded.</p>
                 </header>
             </div>
@@ -498,9 +498,9 @@
 
         <section class="promo section bg-black" style="padding-top: 9.1em !important;">
             <div class="container">
-                <h2 class="section-title playfair-font">Get in touch with us</h2>
-                    <p class="section-lead inter-font">Looking for a reliable and affordable contractor for your next project?</p><br>
-            <a href="#request" data-toggle="modal" class="btn btn-dark wow swing playfair-font">Let's talk</a>
+                <h2 class="careers-title inter-font">Our clients are the heart of our business, which is why we go the extra mile to build lasting relationships.</h2>
+                    <p class="section-lead inter-font">Contact us to schedule an appointment with one of our project managers.</p><br>
+            <a href="#request" data-toggle="modal" class="btn btn-dark wow swing inter-font">Let's talk</a>
             </div>
         </section>
 
@@ -527,7 +527,7 @@
                     </ul>  
                 </div>
                 <div class="col-subscribe col-base col-sm-6 col-md-3 mobile-top-spacing">
-                <div class="subscribe-title playfair-font">Subscribe to our newsletter</div>
+                <div class="subscribe-title inter-font">Subscribe to our newsletter</div>
                 <form class="subscribe-form js-subscribe-form" @submit.prevent="subscribe">
                     <div class="input-group">
                     <input id="mc-email" type="email" class="input-round form-control" placeholder="Email" v-model="subscribeEmail" style="color: black;">
@@ -559,17 +559,17 @@
                 <div style="min-width: 50%;">
                     <div class="modal-header" v-if="talkStatus == 1">
                         <span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
-                        <h2 class="modal-title playfair-font">Thank you</h2>
+                        <h2 class="modal-title inter-font">Thank you</h2>
                         <p class="modal-info inter-font">Your message is successfully sent...</p>
                     </div>
                     <div class="modal-header" v-else-if="talkStatus == 2">
                         <span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
-                        <h2 class="modal-title playfair-font">Sorry</h2>
+                        <h2 class="modal-title inter-font">Sorry</h2>
                         <p class="modal-info inter-font"> Something went wrong </p>
                     </div>
                     <div class="modal-header" v-else>
                         <span class="close" data-dismiss="modal" aria-label="Close">&times;</span>
-                        <h2 class="modal-title playfair-font">Get in touch</h2>
+                        <h2 class="modal-title inter-font">Get in touch</h2>
                         <p class="modal-info inter-font">Leave your contact and your enquiry, <br> and our managers will contact you shortly.</p>
                     </div>
                     <div class="modal-body">
@@ -584,7 +584,7 @@
                                 <textarea rows="3" name="message" placeholder="Message" v-model="talkMessage"></textarea>
                             </div>
                             <div class="modal-footer">
-                                <button type="submit" class="btn btn-dark btn-block playfair-font">Get start</button>
+                                <button type="submit" class="btn btn-dark btn-block inter-font">Get start</button>
                             </div>
                         </form>
                     </div>
@@ -610,7 +610,7 @@
             <div class="modal-content">
             <div class="modal-header">
                 <span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
-                <h2 class="modal-title playfair-font">Thank you</h2>
+                <h2 class="modal-title inter-font">Thank you</h2>
                 <p class="modal-subtitle inter-font">Your message is successfully sent...</p>
             </div>
             </div>
@@ -624,7 +624,7 @@
             <div class="modal-content">
             <div class="modal-header">
                 <span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
-                <h2 class="modal-title playfair-font">Sorry</h2>
+                <h2 class="modal-title inter-font">Sorry</h2>
                 <p class="modal-subtitle inter-font"> Something went wrong </p>
             </div>
             </div>
@@ -940,6 +940,10 @@ export default {
 
 <style>
 
+.careers-title{
+    font-weight: 500;
+    font-size: 1.4em;
+}
 
 .services-section{
     width: 1200px;

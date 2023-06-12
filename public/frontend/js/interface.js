@@ -196,8 +196,8 @@
 
 
 	$(".js-client-carousel").owlCarousel({
-		items : 2,
-	    itemsDesktop : [1199,1],
+		items : 3,
+	    itemsDesktop : [1400,3],
 	    itemsDesktopSmall : [980,1],
 	    itemsTablet: [768,1],
 	    itemsMobile : [479,1],
