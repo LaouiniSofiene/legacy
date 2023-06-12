@@ -170,11 +170,11 @@
 
         <section id="services" class="features bg-dark section">
             <div class="container services-section">
-                <div class="row-base row"> 
+                <!-- <div class="row-base row"> 
                     <h2 class="section-title text-center col-md-12 inter-font">
                         Lorem ipsum dolor
                     </h2>
-                </div>
+                </div> -->
                 <div class="row-base row">
                     <div class="col-base col-feature col-sm-6 col-md-4 wow fadeInUp">
                         <!-- <div class="media-left"><img src="/img/icons/painting.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="Painting and plastering service by Legacy Ventures Malta"></div> -->
