@@ -182,16 +182,16 @@
                     <div class="col-base col-feature col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s" >
                         <!-- <div class="media-left"><img src="/img/icons/tiling.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="Tiling service by Legacy Ventures Malta"></div> -->
                         <div class="media-right">
-                            <h4 class="text-white service-title text-center inter-font">PROJECT MANAGEMENT</h4>
-                            <p class="text-center inter-font">Our experienced team ensures seamless coordination, efficient workflow, and timely completion of your construction project.</p>
+                            <h4 class="text-white service-title text-center inter-font">OWNER REPRESENTATION</h4>
+                            <p class="text-center inter-font">As your trusted representative, we protect your interests, navigate contracts, and ensure compliance throughout the construction process.</p>
                         </div>
                     </div>
                     <div class="clearfix visible-sm"></div>
                     <div class="col-base col-feature col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
                         <!-- <div class="media-left"><img src="/img/icons/gypsum.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="Gypsum service by Legacy Ventures Malta"></div> -->
                         <div class="media-right">
-                            <h4 class="text-white service-title text-center inter-font">OWNER REPRESENTATION</h4>
-                            <p class="text-center inter-font">As your trusted representative, we protect your interests, navigate contracts, and ensure compliance throughout the construction process.</p>
+                            <h4 class="text-white service-title text-center inter-font">PROJECT MANAGEMENT</h4>
+                            <p class="text-center inter-font">Our experienced team ensures seamless coordination, efficient workflow, and timely completion of your construction project.</p>
                         </div>
                     </div>
                 </div>
