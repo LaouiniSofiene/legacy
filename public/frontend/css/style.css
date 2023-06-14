@@ -1162,7 +1162,7 @@ i.icon{
   z-index: 5;
   color: #fff;
   position: absolute;
-  left: 39.5%;
+  left: 42.5%;
   bottom: 16em;
   font-size: 0.7em;
   -webkit-transform: translateX(-50%);
@@ -1170,7 +1170,7 @@ i.icon{
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
   width: 100%;
-  max-width: 45rem;
+  max-width: 52rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -1185,11 +1185,10 @@ i.icon{
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  letter-spacing: 0.1em;
   color: #fefefe;
   font-size: 0.875rem;
   font-weight: 500;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 .video-title-lv::before{
   content: '';
@@ -1205,11 +1204,11 @@ i.icon{
   -ms-flex-align: center;
   align-items: center;
   color: #fefefe;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 4rem;
   margin-top: 1.5rem;
   line-height: 1.1;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 .video-button-lv{
   display: flex;
@@ -1267,6 +1266,16 @@ i.icon{
   direction: ltr;
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
+}
+.video-btn{
+  background-color: white;
+  color: black;
+  box-shadow: none;
+}
+.video-btn:hover{
+  background-color: black;
+  color: white;
+  box-shadow: none;
 }
 
 

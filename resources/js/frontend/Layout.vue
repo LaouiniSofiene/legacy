@@ -26,7 +26,7 @@
                 <!-- <li><a href="#portfolio">Portfolio</a></li> -->
                 <li><a href="#team">Team</a></li>
                 <li><a href="#clients">Clients</a></li>
-                <li><a href="#careers">Careers</a></li>
+                <li v-if="vacancies.length"><a href="#careers">Careers</a></li>
             </ul>
             </nav>
 
@@ -47,7 +47,7 @@
                     <!-- <li><a href="#portfolio">Portfolio</a></li> -->
                     <li><a href="#team">Team</a></li>
                     <li><a href="#clients">Clients</a></li>
-                    <li><a href="#careers">Careers</a></li>
+                    <li v-if="vacancies.length"><a href="#careers">Careers</a></li>
                 </ul>
             </div>
             </nav> 
@@ -139,24 +139,15 @@
             </div>
             
         </div> -->
-        <!-- <div class="video-lv">
+        <div class="video-lv">
                 <h1 class="video-title-lv">
                     Legacy Ventues Malta
                 </h1>
                 <h2 class="video-subtitle-lv">
-                    Lorem ipsum dolor sit amet.
+                    a full-service general contracting firm in Malta
                 </h2>
-                <button class="video-button-lv" @click="openVideo">
-                    <div class="icon">
-                        <i class="fa fa-play"></i>
-                    </div>
-                    <div>
-                        <span>
-                            WHO WE ARE
-                        </span>
-                    </div>
-                </button>
-        </div> -->
+                <a href="#request" data-toggle="modal" class="btn wow swing inter-font video-btn">Let's talk</a>
+        </div>
         
         <div class="mouse-helper">
             <span>Scroll Down</span>
@@ -171,9 +162,14 @@
         <section id="services" class="features bg-dark section">
             <div class="container services-section">
                 <!-- <div class="row-base row"> 
-                    <h2 class="section-title text-center col-md-12 inter-font">
-                        Lorem ipsum dolor
+                    <h2 class="services-title text-center col-md-12 inter-font">
+                        Legacy Ventures Limited is a full-service general contracting firm in Malta. 
                     </h2>
+                </div>
+                <div class="row-base row"> 
+                    <h3 class="services-subtitle text-center col-md-12 inter-font">
+                        With a focus on high-end construction project management, we have been crafting our clients’ legacies for 16 years.
+                    </h3>
                 </div> -->
                 <div class="row-base row">
                     <div class="col-base col-feature col-sm-6 col-md-4 wow fadeInUp">
@@ -939,7 +935,14 @@ export default {
 </script>
 
 <style>
-
+.services-title{
+    font-weight: 600;
+    font-size: 2rem;
+}
+.services-subtitle{
+    font-weight: 400;
+    font-size: 1.4em;
+}   
 .careers-title{
     font-weight: 500;
     font-size: 1.4em;
