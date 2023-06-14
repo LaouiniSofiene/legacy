@@ -1277,6 +1277,11 @@ i.icon{
   color: white;
   box-shadow: none;
 }
+.video-btn:focus{
+  background-color: black;
+  color: white;
+  box-shadow: none;
+}
 
 @media screen and (max-width: 768px) {
   .video-subtitle-lv{
