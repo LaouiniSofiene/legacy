@@ -139,7 +139,7 @@
             </div>
             
         </div> -->
-        <div class="video-lv">
+        <div class="video-lv container">
                 <h1 class="video-title-lv">
                     Legacy Ventues Malta
                 </h1>
@@ -160,7 +160,7 @@
         <!-- Services -->
 
         <section id="services" class="features bg-dark section">
-            <div class="container services-section">
+            <div class="services-section">
                 <!-- <div class="row-base row"> 
                     <h2 class="services-title text-center col-md-12 inter-font">
                         Legacy Ventures Limited is a full-service general contracting firm in Malta. 
@@ -175,14 +175,14 @@
                     <div class="col-base col-feature col-sm-6 col-md-4 wow fadeInUp">
                         <!-- <div class="media-left"><img src="/img/icons/painting.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="Painting and plastering service by Legacy Ventures Malta"></div> -->
                         <div class="media-right">
-                            <h4 class="text-white service-title text-center inter-font">GENERAL CONTRACING</h4>
+                            <h4 class="text-white service-title text-center inter-font">GENERAL<br>CONTRACING</h4>
                             <p class="text-center inter-font">We offer comprehensive construction solutions, overseeing every aspect of your project to bring your vision to life.</p>
                         </div>
                     </div>
                     <div class="col-base col-feature col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s" >
                         <!-- <div class="media-left"><img src="/img/icons/tiling.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="Tiling service by Legacy Ventures Malta"></div> -->
                         <div class="media-right">
-                            <h4 class="text-white service-title text-center inter-font">OWNER REPRESENTATION</h4>
+                            <h4 class="text-white service-title text-center inter-font">OWNER<br>REPRESENTATION</h4>
                             <p class="text-center inter-font">As your trusted representative, we protect your interests, navigate contracts, and ensure compliance throughout the construction process.</p>
                         </div>
                     </div>
@@ -190,7 +190,7 @@
                     <div class="col-base col-feature col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
                         <!-- <div class="media-left"><img src="/img/icons/gypsum.svg" style="margin-top: 2.5vh;" width="56" height="56" alt="Gypsum service by Legacy Ventures Malta"></div> -->
                         <div class="media-right">
-                            <h4 class="text-white service-title text-center inter-font">PROJECT MANAGEMENT</h4>
+                            <h4 class="text-white service-title text-center inter-font">PROJECT<br>MANAGEMENT</h4>
                             <p class="text-center inter-font">Our experienced team ensures seamless coordination, efficient workflow, and timely completion of your construction project.</p>
                         </div>
                     </div>
@@ -495,7 +495,7 @@
         <section class="promo section bg-black" style="padding-top: 9.1em !important;">
             <div class="container">
                 <h2 class="careers-title inter-font">Our clients are the heart of our business, which is why we go the extra mile to build lasting relationships.</h2>
-                    <p class="section-lead inter-font">Contact us to schedule an appointment with one of our project managers.</p><br>
+                    <p class="section-lead inter-font" style="color: #c1c1c1;">Contact us to schedule an appointment with one of our project managers.</p><br>
             <a href="#request" data-toggle="modal" class="btn btn-dark wow swing inter-font">Let's talk</a>
             </div>
         </section>
@@ -949,10 +949,12 @@ export default {
 }
 
 .services-section{
-    width: 1200px;
+    /* width: 1200px; */
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
     .services-section{
         width: 992px;
     }
@@ -971,10 +973,11 @@ export default {
     .service-title{
           height: 45px;  
     }
-}
+} */
 
 .service-title{
     font-size: 1.5em;
+    margin: 0;
 }
 
 .helvica-font{
