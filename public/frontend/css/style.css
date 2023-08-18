@@ -1,11 +1,11 @@
 /* ------------------------------------------------------------------------------
 
-  Template Name: Archiko. 
+  Template Name: Archiko.
   Description: Archiko. - Architecture HTML Template
   Author: Murren
   Author URI: http://themeforest.net/user/paul_tf
   Version: 1.0
-  
+
   1.  Global
 
       1.1 General
@@ -16,13 +16,13 @@
       1.6 Loader
       1.7 Content styles
 
-  2.  Header 
+  2.  Header
 
       2.1 Navbar
       2.2 Nav Desctop
       2.3 Nav Mobile
       2.4 Navbar Affix
-      
+
 
   3.  Main
 
@@ -32,7 +32,7 @@
 
       5.1 Magnific popup
       5.2 Portfolio Details
-      
+
   5.  Team
   6.  Clients
   7.  News
@@ -43,10 +43,10 @@
 
       11.1 Min width: 768px
       11.2 Min width 992px
-      11.3 Min width 1200px 
+      11.3 Min width 1200px
 
-    
-    
+
+
 /*-------------------------------------------------------------------------------
  1. Global
 -------------------------------------------------------------------------------*/
@@ -81,8 +81,8 @@ body{
   color: #9a9a9a;
   background-color: #1f1f1f;
   overflow-x:hidden;
-  position: relative;
- 
+  /* position: relative; */
+
 }
 
 ::-webkit-scrollbar{
@@ -118,7 +118,7 @@ body{
 
 
 h1,
-.h1{ 
+.h1{
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 4.3em;
@@ -134,7 +134,7 @@ h1 i,
 }
 
 h2,
-.h2{ 
+.h2{
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 2.4em;
@@ -520,10 +520,10 @@ i.icon{
 }
 
 @keyframes sk-bounce {
-  0%, 100% { 
+  0%, 100% {
     transform: scale(0.0);
     -webkit-transform: scale(0.0);
-  } 50% { 
+  } 50% {
     transform: scale(1.0);
     -webkit-transform: scale(1.0);
   }
@@ -683,7 +683,7 @@ i.icon{
 
 
 
-.navbar{ 
+.navbar{
   position: absolute;
   z-index: 2;
   left:0;
@@ -943,7 +943,7 @@ i.icon{
 .navbar-toggle .icon-bar{
   background-color:#fff;
   height: 2px;
-  width: 30px; 
+  width: 30px;
 }
 
 .navbar-toggle .icon-bar + .icon-bar{
@@ -1037,7 +1037,7 @@ i.icon{
 }
 
 .navbar.affix .brand{
-  color: #fff;  
+  color: #fff;
 }
 
 .navbar.affix .nav-desctop-list > li > a{
@@ -1073,8 +1073,8 @@ i.icon{
   border-top: 1px solid rgba(255,255,255,0.04);
 }
 
-.navbar.affix .nav-mobile-list li a:hover, 
-.navbar.affix .nav-mobile-list li .active > a, 
+.navbar.affix .nav-mobile-list li a:hover,
+.navbar.affix .nav-mobile-list li .active > a,
 .navbar.affix .nav-mobile-list > .current > a{
   color: #fff;
 }
@@ -1590,7 +1590,7 @@ i.icon{
   overflow: visible;
 }
 
-.mfp-image-holder .mfp-close, 
+.mfp-image-holder .mfp-close,
 .mfp-iframe-holder .mfp-close{
   padding: 0;
   margin-top: -10px;
@@ -1633,7 +1633,7 @@ img.mfp-img{
 .mfp-wrap .mfp-content {
   -webkit-perspective: 1300px;
           perspective: 1300px
-  
+
 }
 
 .mfp-wrap .mfp-figure,
@@ -1692,11 +1692,11 @@ img.mfp-img{
       -ms-transform: rotateX(-60deg);
        -o-transform: rotateX(-60deg);
           transform: rotateX(-60deg);
-  
+
 }
 
-.mfp-zoom-out-cur, 
-.mfp-zoom-out-cur 
+.mfp-zoom-out-cur,
+.mfp-zoom-out-cur
 .mfp-image-holder .mfp-close{
   cursor:url(../img/zoom-out.cur), zoom-out;
 }
@@ -2114,7 +2114,7 @@ img.mfp-img{
   display: inline-block;
   color: #fff;
   margin-bottom:0.7em;
-  
+
 }
 
 .col-contacts a:hover{
