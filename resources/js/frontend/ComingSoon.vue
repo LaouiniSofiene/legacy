@@ -1,5 +1,8 @@
 <template lang="">
     <div>
+        <div>
+            <img width="200" style="width: 200px;" src="/img/legacy-ventures-logo.png"  alt="Legacy Ventures Malta">
+        </div>
         <div class="wrapper">
             <h1>We are currently under construction<span class="dot">.</span></h1>
             <br><br>
