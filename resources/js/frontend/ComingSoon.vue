@@ -2,6 +2,7 @@
     <div>
         <div class="wrapper">
             <h1>We are currently under construction<span class="dot">.</span></h1>
+            <br><br>
             <div class="icons">
                 <a href="https://www.facebook.com/legacyventuresmalta"><i class="fa fa-facebook"></i></a>
                 <a href="https://instagram.com/legacyventuresmalta?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a>
@@ -75,6 +76,7 @@ p {
   transition: all 200ms ease;
   text-decoration: none;
   position: relative;
+  display: inherit;
 }
 
 .icons i:hover, .icons i:active {
