@@ -1,7 +1,7 @@
-<template>       
+<template>
     <!-- Loader -->
 
-        
+
     <div class="loader">
     <div class="spinner">
         <div class="double-bounce1"></div>
@@ -40,7 +40,7 @@
             </button>
 
             <nav class="nav nav-mobile">
-            <div class="collapse" id="nav-collapse"> 
+            <div class="collapse" id="nav-collapse">
                 <ul class="nav-mobile-list inter-font">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#services">Services</a></li>
@@ -50,14 +50,14 @@
                     <li v-if="vacancies.length"><a href="#careers">Careers</a></li>
                 </ul>
             </div>
-            </nav> 
+            </nav>
         </div>
         </header>
-        
+
         <!-- Home -->
-            
+
         <main class="main" id="home" style=" width: 100vw;height: 100vh;">
-        
+
         <!-- <div class="arrow-left hidden-xs"></div>
         <div class="arrow-right hidden-xs"></div> -->
 
@@ -65,10 +65,10 @@
         <div class="overlay">
                 <!-- <i class="fa fa-times close-icon" @click="closeVideo"></i> -->
                 <!-- <div class="popup"> -->
-                    <iframe 
-                        src="https://player.vimeo.com/video/833409461?h=32f88f374?rel=0&autoplay=1&loop=1&background=1" 
-                        frameborder="0" 
-                        allow="autoplay; fullscreen" 
+                    <iframe
+                        src="https://player.vimeo.com/video/833409461?h=32f88f374?rel=0&autoplay=1&loop=1&background=1"
+                        frameborder="0"
+                        allow="autoplay; fullscreen"
                         allowfullscreen
                         webkitallowfullscreen
                         mozallowfullscreen
@@ -79,7 +79,7 @@
                 <!-- </div> -->
         </div>
         <!-- <div class="rev_slider_wrapper">
-            
+
             <div id="rev_slider" class="rev_slider fullscreenbanner">
             <ul>
 
@@ -88,16 +88,16 @@
 
                 <img src="/img/header-1.jpg"  alt="Luxury apartment building in Malta developed by Legacy Ventures Malta" data-bgposition="center center" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="7">
 
-                <div class="tp-caption tp-shape tp-shape-mask tp-shapewrapper" 
-                    data-x="center" data-hoffset="" 
-                    data-y="left" data-voffset="" 
-                    data-basealign="slide" 
+                <div class="tp-caption tp-shape tp-shape-mask tp-shapewrapper"
+                    data-x="center" data-hoffset=""
+                    data-y="left" data-voffset=""
+                    data-basealign="slide"
                     data-width="['14000']"
                     data-height="['14000']"
                     data-transform_idle="o:1;"
-                    data-transform_in="opacity:0;s:1000;s:1000s:1000;e:Power3.easeInOut;" 
-                    data-transform_out="opacity:0;s:1000;s:1000s:1000;e:Power3.easeInOut;"  
-                    data-start="0" 
+                    data-transform_in="opacity:0;s:1000;s:1000s:1000;e:Power3.easeInOut;"
+                    data-transform_out="opacity:0;s:1000;s:1000s:1000;e:Power3.easeInOut;"
+                    data-start="0"
                     data-responsive_offset="on" style="background-color:rgba(10,10,10,0.5);"></div>
 
                 </li>
@@ -106,38 +106,38 @@
 
                     <img src="/img/header-2.jpg"  alt="Luxury apartment building in Malta developed by Legacy Ventures Malta" data-bgposition="center center" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="7">
 
-                    <div class="tp-caption tp-shape tp-shape-mask tp-shapewrapper" 
-                        data-x="center" data-hoffset="" 
-                        data-y="left" data-voffset="" 
-                        data-basealign="slide" 
+                    <div class="tp-caption tp-shape tp-shape-mask tp-shapewrapper"
+                        data-x="center" data-hoffset=""
+                        data-y="left" data-voffset=""
+                        data-basealign="slide"
                         data-width="['14000']"
                         data-height="['14000']"
                         data-transform_idle="o:1;"
-                        data-transform_in="opacity:0;s:1000;s:1000s:1000;e:Power3.easeInOut;" 
-                        data-transform_out="opacity:0;s:1000;s:1000s:1000;e:Power3.easeInOut;"  
-                        data-start="0" 
+                        data-transform_in="opacity:0;s:1000;s:1000s:1000;e:Power3.easeInOut;"
+                        data-transform_out="opacity:0;s:1000;s:1000s:1000;e:Power3.easeInOut;"
+                        data-start="0"
                         data-responsive_offset="on" style="background-color:rgba(10,10,10,0.5);"></div>
                 </li>
 
                 <li  data-transition="incube-horizontal" data-masterspeed="1000" data-fsmasterspeed="1000">
 
                     <img src="/img/header-3.jpg"  alt="Luxury apartment building in Malta developed by Legacy Ventures Malta" data-bgposition="center center" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="7">
-                    
-                    <div class="tp-caption tp-shape tp-shape-mask tp-shapewrapper" 
-                        data-x="center" data-hoffset="" 
-                        data-y="left" data-voffset="" 
-                        data-basealign="slide" 
+
+                    <div class="tp-caption tp-shape tp-shape-mask tp-shapewrapper"
+                        data-x="center" data-hoffset=""
+                        data-y="left" data-voffset=""
+                        data-basealign="slide"
                         data-width="['14000']"
                         data-height="['14000']"
                         data-transform_idle="o:1;"
-                        data-transform_in="opacity:0;s:1000;s:1000s:1000;e:Power3.easeInOut;" 
-                        data-transform_out="opacity:0;s:1000;s:1000s:1000;e:Power3.easeInOut;"  
-                        data-start="0" 
+                        data-transform_in="opacity:0;s:1000;s:1000s:1000;e:Power3.easeInOut;"
+                        data-transform_out="opacity:0;s:1000;s:1000s:1000;e:Power3.easeInOut;"
+                        data-start="0"
                         data-responsive_offset="on" style="background-color:rgba(10,10,10,0.5);"></div>
                 </li>
             </ul>
             </div>
-            
+
         </div> -->
         <div class="video-lv container">
                 <h1 class="video-title-lv">
@@ -148,25 +148,25 @@
                 </h2>
                 <a href="#request" data-toggle="modal" class="btn wow swing inter-font video-btn">Let's talk</a>
         </div>
-        
+
         <div class="mouse-helper">
             <span>Scroll Down</span>
             <i class="icon ion-mouse"></i>
         </div>
         </main>
 
-        <div class="content"> 
+        <div class="content">
 
         <!-- Services -->
 
         <section id="services" class="features bg-dark section">
             <div class="services-section">
-                <!-- <div class="row-base row"> 
+                <!-- <div class="row-base row">
                     <h2 class="services-title text-center col-md-12 inter-font">
-                        Legacy Ventures Limited is a full-service general contracting firm in Malta. 
+                        Legacy Ventures Limited is a full-service general contracting firm in Malta.
                     </h2>
                 </div>
-                <div class="row-base row"> 
+                <div class="row-base row">
                     <h3 class="services-subtitle text-center col-md-12 inter-font">
                         With a focus on high-end construction project management, we have been crafting our clients’ legacies for 16 years.
                     </h3>
@@ -220,7 +220,7 @@
                     <div class="solutions-row">
                         <div class="solutions-image" style="background-image:url('/img/portfolio-2.jpg');filter:grayscale(90%);"></div>
                         <div class="solutions-col">
-                            <div class="solutions-text">   
+                            <div class="solutions-text">
                                 <h3 class="inter-font">
                                     TILING WORKS
                                 </h3>
@@ -233,14 +233,14 @@
                     <div class="solutions-row">
                         <div class="solutions-image" style="background-image:url('/img/portfolio-3.jpg');filter:grayscale(90%);"></div>
                         <div class="solutions-col">
-                            <div class="solutions-text"> 
+                            <div class="solutions-text">
                                 <h3 class="inter-font">
                                     GYPSUM BORAD INSTALLATION
                                 </h3>
                                 <p class="inter-font">
-                                    This modern technique is being used as an effective method to divide rooms according to a client's  requirements. We ensure a neat finish and make use of a high European standard of quality materials to ensure durability and longevity of your investment. Gypsum boards used are also fire rated and resistant to humidity. 
+                                    This modern technique is being used as an effective method to divide rooms according to a client's  requirements. We ensure a neat finish and make use of a high European standard of quality materials to ensure durability and longevity of your investment. Gypsum boards used are also fire rated and resistant to humidity.
                                 </p>
-                            </div>   
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -264,7 +264,7 @@
                     </figcaption>
                 </figure>
                 </a>
-            </div>  
+            </div>
             <div class="isotope-item kitchen">
                 <a href="/img/portfolio-2.jpg" title="Portfolio Image 2">
                 <figure class="showcase-item">
@@ -290,7 +290,7 @@
                     </figcaption>
                 </figure>
                 </a>
-            </div> 
+            </div>
             <div class="isotope-item kitchen">
                 <a href="/img/portfolio-4.jpg" title="Portfolio Image 4">
                 <figure class="showcase-item">
@@ -316,7 +316,7 @@
                     </figcaption>
                 </figure>
                 </a>
-            </div> 
+            </div>
             </div>
         </section> -->
 
@@ -407,7 +407,7 @@
                 </div>
                 </div>
             </section>
-        
+
 
         <!-- Clients -->
 
@@ -487,7 +487,7 @@
                         </div>
                     </div>
                 </div>
-            </div>  
+            </div>
         </section>
 
         <!-- Banner -->
@@ -503,7 +503,7 @@
 
         <!-- Footer -->
 
-        <footer id="footer" class="footer">     
+        <footer id="footer" class="footer">
             <div class="container">
             <div class="row-base row">
                 <div class="brand-info col-base col-sm-6 col-md-4" style="margin-top: 20px;">
@@ -520,7 +520,7 @@
                     <ul class="social-list" style="margin-top: 15px;">
                             <li><a style="font-size: 1.5em;" href="https://www.facebook.com/legacyventuresmalta" class="fa fa-facebook"></a></li>
                             <li><a style="font-size: 1.5em;" href="https://instagram.com/legacyventuresmalta?igshid=YmMyMTA2M2Y=" class="fa fa-instagram"></a></li>
-                    </ul>  
+                    </ul>
                 </div>
                 <div class="col-subscribe col-base col-sm-6 col-md-3 mobile-top-spacing">
                 <div class="subscribe-title inter-font">Subscribe to our newsletter</div>
@@ -541,7 +541,7 @@
                 <div class="copyrights inter-font">
                 © Copyright 2023 Legacy. All Rights Reserved
                 </div>
-                
+
             </div>
             </div>
         </footer>
@@ -585,7 +585,7 @@
                         </form>
                     </div>
                 </div>
-                
+
                 <div class="modal-map">
                     <GoogleMap
                         :apiKey="yourApiKey"
@@ -594,7 +594,7 @@
                         :markers="markers"
                     ></GoogleMap>
                 </div>
-                    
+
             </div>
         </div>
     </div>
@@ -849,7 +849,7 @@ export default {
             ],
         }
     },
-        
+
     components: {
         GoogleMap,
     },
@@ -935,6 +935,7 @@ export default {
 </script>
 
 <style>
+/*
 .services-title{
     font-weight: 600;
     font-size: 2rem;
@@ -942,7 +943,7 @@ export default {
 .services-subtitle{
     font-weight: 400;
     font-size: 1.4em;
-}   
+}
 .careers-title{
     font-weight: 500;
     font-size: 1.4em;
@@ -971,7 +972,7 @@ export default {
 }
 @media (min-width: 992px) {
     .service-title{
-          height: 45px;  
+          height: 45px;
     }
 } */
 
@@ -1049,7 +1050,7 @@ iframe{
 /* @media (max-width: 768px) {
     .overlay {
         padding-bottom: 0;
-        height: 100vh; 
+        height: 100vh;
     }
 } */
 .bg-pattern{
@@ -1160,7 +1161,7 @@ iframe{
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    
+
     width: 60%;
 }
 
@@ -1180,7 +1181,7 @@ iframe{
     background-size: cover;
     width: 60%;
     margin: 0;
-}
+}*/
 
 
 
@@ -1191,7 +1192,9 @@ iframe{
 
 </style>
 <style>
+/*
     @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*/
 </style>

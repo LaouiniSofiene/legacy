@@ -17,7 +17,7 @@
             </main>
             </div>
             <div class="hero-image-desktop">
-            <img src="/img/portfolio-2.jpg" alt="legacy-ventures">
+                <img src="/img/portfolio-2.jpg" alt="legacy-ventures">
             </div>
     </div>
 </template>
@@ -26,7 +26,7 @@ export default {
      name: "ComingSoon",
 }
 </script>
-<style lang="css" scoped>
+<style  scoped>
     @font-face {
     font-family: 'AdiHaus';
     src: url('https://assets.codepen.io/6060109/adihaus_regular.ttf') format('truetype');
