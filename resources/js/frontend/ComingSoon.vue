@@ -1,24 +1,12 @@
 <template lang="">
     <div>
-        <div class="mobile-container">
-            <header>
-                <section class="hero-banner">
-                <div class="logo-wrapper">
-                    <img src="/img/legacy-ventures-logo.png" alt="Adidas logo.">
-                </div>
-                <div class="hero-image"></div>
-                </section>
-            </header>
-            <main>
-                <article class="text-info">
-                    <h2>We are</h2>
-                    <h2>currently under<br>construction</h2>
-                </article>
-            </main>
+        <div class="wrapper">
+            <h1>We are currently under construction<span class="dot">.</span></h1>
+            <div class="icons">
+                <a href="https://www.facebook.com/legacyventuresmalta"><i class="fa fa-facebook"></i></a>
+                <a href="https://instagram.com/legacyventuresmalta?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a>
             </div>
-            <div class="hero-image-desktop">
-                <img src="/img/portfolio-2.jpg" alt="legacy-ventures">
-            </div>
+        </div>
     </div>
 </template>
 <script>
@@ -26,239 +14,76 @@ export default {
      name: "ComingSoon",
 }
 </script>
-<style  scoped>
-    @font-face {
-    font-family: 'AdiHaus';
-    src: url('https://assets.codepen.io/6060109/adihaus_regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+<style scoped>
+    @keyframes fadeIn {
+  from {top: 20%; opacity: 0;}
+  to {top: 100; opacity: 1;}
+
 }
 
-@font-face {
-    font-family: "AdiHaus";
-    src: url("https://assets.codepen.io/6060109/adihaus_bold.ttf") format("truetype");
-    font-weight: bold;
-    font-style: normal;
+@-webkit-keyframes fadeIn {
+  from {top: 20%; opacity: 0;}
+  to {top: 100; opacity: 1;}
+
 }
 
-*, *::before, *::after {
-    box-sizing: border-box;
-    border-style: none;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  animation: fadeIn 1000ms ease;
+  -webkit-animation: fadeIn 1000ms ease;
+
 }
 
-:root {
-    --theme-color-black: #333333; /* rgba(51, 51, 51, 1) */
-    --theme-color-brown: #423A3A;
-    --theme-color-red: #CD3A24;
-    --theme-color-white: #FEFFFF; /* rgba(254, 255, 255, 1) */
+h1 {
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0;
+  line-height: 1;
+  font-weight: 700;
 }
 
-/* ---------- MAIN BODY DECLERATIONS ---------- */
-
-html, body {
-    background-color: var(--theme-color-white);
-    font-family: "AdiHaus";
-    font-size: 14px;
-    height: 100%;
-    width: 100%;
+.dot {
+  color: #4FEBFE;
 }
 
-input {
-    font-family: 'AdiHaus';
+p {
+  text-align: center;
+  margin: 18px;
+  font-family: 'Muli', sans-serif;
+  font-weight: normal;
+
 }
 
-.mobile-container {
-    margin: 0 auto;
-    max-width: 500px;
-    min-width: 300px;
+.icons {
+  text-align: center;
+
 }
 
-.hero-image-desktop {
-    display: none;
+.icons i {
+  color: #00091B;
+  background: #fff;
+  height: 15px;
+  width: 15px;
+  padding: 13px;
+  margin: 0 10px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  transition: all 200ms ease;
+  text-decoration: none;
+  position: relative;
 }
 
-/* ---------- HERO BANNER DECLERATIONS ---------- */
-.hero-banner {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
+.icons i:hover, .icons i:active {
+  color: #fff;
+  background: none;
+  cursor: pointer !important;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  text-decoration: none;
 
-.hero-banner .logo-wrapper {
-    height: auto;
-    margin: 0 auto;
-    padding: 1rem 0;
-    width: auto;
-}
-
-    .logo-wrapper img {
-        display: block;
-        height: 2.5rem;
-        margin: 0 auto;
-        width: auto;
-    }
-
-.hero-banner .hero-image {
-    background-image: url(https://assets.codepen.io/6060109/athlete-girl.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 376px;
-    width: 100%;
-}
-
-/* ---------- TEXT INFO DECLERATIONS ---------- */
-.text-info {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-}
-
-    .text-info > * {
-        padding: 0 2.5rem 1rem;
-    }
-
-    /* intended for the first h2 within .text-info */
-    .text-info h2:nth-child(1) {
-        color: var(--theme-color-red);
-        font-weight: normal;
-        padding-top: 1.8rem;
-        padding-bottom: 1rem;
-    }
-
-    .text-info h2 {
-        font-size: 3.5rem;
-        font-weight: bold;
-        color: var(--theme-color-brown);
-        letter-spacing: 5px;
-        text-transform: uppercase;
-    }
-
-    .text-info p {
-        color: var(--theme-color-black);
-        line-height: 24px;
-    }
-
-    .text-info .email-signup {
-        margin: 1rem 0 6rem;
-        position: relative;
-        width: 100%;
-    }
-
-        .email-signup .email-input {
-            border: 1px solid rgba(51, 51, 51, .7);
-            border-radius: 3px;
-            padding: 1rem 1.5rem;
-            opacity: .5;
-            width: 100%;
-        }
-
-        .email-signup .email-input:focus {
-            background-color: var(--theme-color-white);
-            outline: 2px solid var(--theme-color-black);
-            opacity: 1;
-        }
-
-        .email-signup .email-submit {
-            background-color: var(--theme-color-black);
-            border-bottom: 1px solid var(--theme-color-black);
-            border-radius: 2px;
-            color: var(--theme-color-white);
-            cursor: pointer;
-            font-weight: bold;
-            opacity: 1;
-            padding: 1rem 1.5rem;
-            position: absolute;
-            right: 0;
-            margin-right: 2.5rem;
-            z-index: 10;
-        }
-
-@media only screen and (min-width: 768px) {
-    body {
-        background-image: url(https://assets.codepen.io/6060109/destop-bg.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        flex-direction: row;
-        height: 100%;
-    }
-
-    main {
-        display: flex;
-        flex-direction: column;
-        height: inherit;
-        max-width: 100%;
-        margin: 0 auto;
-        padding-left: 3.5rem;
-    }
-
-    .mobile-container {
-        width: 45vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
-    .hero-banner .logo-wrapper {
-        margin-left: 3.5rem;
-        width: 100%;
-        display: flex;
-        align-items: start;
-        flex-direction: column;
-    }
-        .logo-wrapper img {
-            margin: 0 0 0;
-            padding-left: 2.5rem;
-        }
-
-    .hero-image {
-        display: none;
-    }
-
-    .text-info {
-        text-align: left;
-        align-items: start;
-    }
-
-        .text-info h2 {
-            font-size: 4.5rem;
-        }
-
-        .text-info p {
-            font-size: 16px;
-        }
-
-        .text-info input {
-            font-size: 16px;
-        }
-
-        .text-info .email-signup {
-            margin: 1rem 0 7rem;
-        }
-
-    .hero-image-desktop {
-        display: block;
-        height: 100%;
-        width: 55vw;
-    }
-
-    .hero-image-desktop img {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
-        height: 100%;
-        object-fit: cover;
-        width: 100%;
-    }
-
-    .email-signup .email-submit {
-        border-bottom: 2px solid var(--theme-color-black);
-    }
 }
 </style>
