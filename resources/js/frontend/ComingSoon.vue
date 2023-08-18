@@ -4,7 +4,7 @@
             <h1>We are currently under construction<span class="dot">.</span></h1>
             <br><br>
             <div class="icons">
-                <a href="https://www.facebook.com/legacyventuresmalta"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.facebook.com/legacyventuresmalta"><i class="fa fa-facebook" style="padding: 13px 16px;"></i></a>
                 <a href="https://instagram.com/legacyventuresmalta?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a>
             </div>
         </div>
@@ -67,8 +67,7 @@ p {
 .icons i {
   color: #00091B;
   background: #fff;
-  height: 15px;
-  width: 15px;
+
   padding: 13px;
   margin: 0 10px;
   border-radius: 50px;
