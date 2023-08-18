@@ -76,7 +76,6 @@ p {
   transition: all 200ms ease;
   text-decoration: none;
   position: relative;
-  display: inherit;
 }
 
 .icons i:hover, .icons i:active {
