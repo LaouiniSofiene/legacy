@@ -950,7 +950,7 @@ export default {
 }
 
 .services-section{
-    width: 1200px; 
+    /* width: 1200px;  */
     padding-left: 15%;
     padding-right: 15%; 
  }
@@ -972,7 +972,7 @@ export default {
 }
 @media (min-width: 992px) {
     .service-title{
-          height: 45px;
+          /* height: 45px; */
     }
 }
 

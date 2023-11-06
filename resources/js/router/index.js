@@ -9,7 +9,7 @@ import Subscribers from '../admin/components/Subscribers';
 import EditPost from '../admin/components/EditPost';
 import AddPost from '../admin/components/AddPost';
 import AdminLayout from '../admin/Layout';
-import MainLayout from '../frontend/Layout';
+// import MainLayout from '../frontend/Layout';
 import ComingSoon from '../frontend/ComingSoon'
 
 export const routes = [
@@ -17,11 +17,6 @@ export const routes = [
         name: 'main',
         path: '/',
         component: ComingSoon,
-    },
-    {
-        name: 'test',
-        path: '/test',
-        component: MainLayout,
     },
     {
         name: 'admin',
