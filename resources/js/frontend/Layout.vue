@@ -951,9 +951,9 @@ export default {
 
 .services-section{
     /* width: 1200px; */
-    padding-left: 15%;
-    padding-right: 15%;
-}
+    /* padding-left: 15%;
+    padding-right: 15%; */
+/* } */
 
 /* @media (max-width: 1200px) {
     .services-section{
@@ -1181,7 +1181,7 @@ iframe{
     background-size: cover;
     width: 60%;
     margin: 0;
-}*/
+}
 
 
 
