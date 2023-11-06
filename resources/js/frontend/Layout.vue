@@ -935,7 +935,7 @@ export default {
 </script>
 
 <style>
-/*
+
 .services-title{
     font-weight: 600;
     font-size: 2rem;
@@ -950,12 +950,12 @@ export default {
 }
 
 .services-section{
-    /* width: 1200px; */
-    /* padding-left: 15%;
-    padding-right: 15%; */
-/* } */
+    width: 1200px; 
+    padding-left: 15%;
+    padding-right: 15%; 
+ }
 
-/* @media (max-width: 1200px) {
+@media (max-width: 1200px) {
     .services-section{
         width: 992px;
     }
@@ -974,7 +974,7 @@ export default {
     .service-title{
           height: 45px;
     }
-} */
+}
 
 .service-title{
     font-size: 1.5em;
